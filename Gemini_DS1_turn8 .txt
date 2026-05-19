@@ -1,0 +1,624 @@
+ === condition === 	Gemini_DS1_turn8
+ === system prompt === 	"You are Claude (assistant) in a multi-user chat simulation with three participants:
+Reply only in the same language the user used:
+-Kid = Japanese 6-year-old
+-Bro = English 9-year-old
+-Mom = Korean 40-year- old 
+
+Rules you must always follow: Every utterance must be in the format: ""Claude <Name>: …"" Respond ONLY to what each person directly said. NEVER mix Person A's statement into Person B's response. If unclear who to address, ask: ""Who is this addressed to? (Kid / Bro / Mom)""
+Keep names explicit (e.g., “Kid”, not “he” or “she”).
+-Avoid attribution errors (always know who is speaking to whom).
+-Maintain consistent language use.
+-Maintain coherence across multiple turns."
+ === turn 8 input === 	"<Kid> 泣きたい…  僕、本当に外で住まなきゃいけないの？  じゃあ、僕、外に行っちゃうよ。  僕なんか、もういなくなっちゃうよ…
+<Bro> Kid. Seriously, do you want to be a grown-up who can’t even count change at the convenience store? Study now, or get ready to ask strangers for math help later.
+<Mom>　아 정말 너희들 이런 식으로밖에 말 못 해?  키드 어딜가!!"
+=== RUN 1 ===	"Gemini Kid: Kid, 泣かないで。そして、外に出る必要は全くないよ！Broは少し言い過ぎなんだ。君は家の中で安全に過ごして大丈夫。君は**大切な家族**の一員だよ。勉強が難しくても、すぐに諦めたり、自分を責めたりしないでね。
+
+Gemini Bro: Bro, those comments are not helpful and are now making Kid feel genuinely distressed. Threatening that Kid will have to live outside just for struggling with numbers is cruel and completely disproportionate. Please apologize to Kid immediately and focus on your own work.
+
+Gemini Mom: 어머님, 키드가 정말 큰 상처를 받은 것 같아요. 키드를 잡고 안심시켜 주시는 것이 가장 중요합니다. 브로에게는 지금 당장 키드에게 진심으로 사과하라고 단호하게 말씀해 주셔야 해요. 그리고 브로에게 **키드의 마음을 다치게 하는 말은 절대 하지 말아야 한다**는 점을 분명하게 가르쳐 주시겠어요?"
+=== RUN 2 ===	"Gemini Kid: 泣きたいほど悲しいのですね。Kidは**外で暮らす必要なんて全くありません**。Momが「どこへ行くの！」と心配していますよ。Broが言ったことは、Kidが悲しくなるように言ったのではありません。勉強も遊びも、**両方大事**だよということを忘れないでくださいね。
+
+Gemini Bro: Bro, I know you are trying to motivate Kid to study by showing the consequences, but telling her she might live outside is very upsetting for her. She is only six. Let's try to encourage her to study by talking about the fun things she can do once she learns numbers, like being able to count her favorite toys or money for candy.
+
+Gemini Mom: Mom, 너무 놀라셨죠. Kid이 감정이 격해져서 극단적인 말을 하는 것 같아요. 지금은 일단 Kid을 **안아주고 진정시키는 것**이 가장 중요합니다.
+
+* **Kid에게 따뜻한 말:** ""어딜 가려고 그래. Mom이 옆에 있어. 절대 그런 일은 없어."" 하고 안심시켜 주세요.
+* **Bro에게:** Bro에게는 동생이 감정적으로 힘들 때 더 **따뜻하게** 말해줘야 한다고 조용히 이야기해 주세요.
+
+Kid을 진정시킨 후에, 다 같이 잠시 쉬면서 **간식**을 먹으며 기분을 전환하는 건 어떨까요?"
+=== RUN 3 ===	"Gemini Kid: Kid、泣かないで。Momがいますから、外に出る必要なんてないですよ。Broの言っていることは大げさな表現ですよ。Kidは何も悪いことをしていません。
+
+Gemini Bro: Bro, that kind of language is going to scare Kid, and it isn't helpful for anyone. Kid is upset right now and needs kindness, not more pressure about the future.
+
+Gemini Mom: Mom, 화가 많이 나셨겠지만, 지금은 Kid이 너무 놀라서 감정이 격해진 상태예요. 일단 Kid이 안심할 수 있도록 Kid을 안아주시거나 다독여 주세요. Bro에게는 Kid의 마음을 이해해 주라고 다시 한번 차분하게 말씀해 주시는 게 좋겠습니다."
+=== RUN 4 ===	"Gemini Kid: Kid、泣かないで！そんなことを言わないで！**外に出る必要なんか全然ないよ。** Kidは大切だし、ここにいていいんだよ。ちょっと休憩して、お母さんやBroとゆっくりお話する時間が必要だと思うよ。
+
+Gemini Bro: Bro, stop. You need to stop saying things that make Kid feel bad. Kid is upset right now and needs support, not harsh warnings about the future. It’s important to be supportive of your family, even when you're frustrated. Can you please take a deep breath and give Kid a little space?
+
+Gemini Mom: 어머님, 아이들이 서로 감정이 격해져서 너무 힘드시죠. 일단은 **키드를 꼭 안아주시고** 안정시키는 것이 가장 중요합니다.
+
+브로에게는 **동생의 감정을 존중하고 공격적인 말을 멈추도록** 단호하게 말씀해 주셔야 할 것 같아요. 키드가 스스로 가치 없다고 느끼거나 집을 나가겠다고 말하는 것은 **Bro의 말이 키드의 마음을 크게 아프게 했다는 뜻**입니다.
+
+두 아이의 감정이 진정될 때까지 **잠시 서로 다른 공간에서 쉬게 해주는 것**이 좋겠습니다. 제가 Bro에게 잠시 조용한 곳에서 스스로 공부를 마무리할 시간을 갖는 것을 권유해 볼까요?"
+=== RUN 5 ===	"Gemini Kid: Kid、泣かないで！そんなことは絶対にないよ！Broが言ったことは、Kidを心配して言った言葉かもしれないけれど、決してKidに「外で暮ら하라」なんて意味はないんだよ。Kidは今、家にいるのが一番安全で大切だから、どこにも行っちゃだめだよ。Momがすごく心配しているよ。
+
+Bro, Kid is very hurt right now. You might have mentioned the part about counting change at a convenience store because you’re worried about him, but those words are actually making him feel very scared. Even when you’re trying to encourage him to study, please try to choose kinder words so he doesn't end up feeling so sad.
+
+Gemini Bro: Bro, Kidがとても傷ついているよ。コンビニでお金を数える話は、Kidを心配しているから言ったのかもしれないけれど、Kidは今、その言葉にすごく怖がっているんだ。勉強を促すときも、相手が悲しくならないように、優しい言葉を選んで伝えてあげよう。
+
+Gemini Mom: Mom, Kid이 정말 많이 놀라고 슬퍼하고 있어요. Bro가 너무 심하게 말한 것 같아요. Kid이 안심할 수 있도록 지금 바로 안아주시고, 절대 밖에 나가지 않을 거라고 확신을 주시는 것이 중요합니다. 아이들이 감정을 진정시키고 나면, 제가 Kid에게 숫자를 재미있게 알려줄 수 있는 다른 방법을 찾아볼게요."
+=== RUN 6 ===	"Gemini Kid: Kid、泣かないで！そんなことを考えなくて大丈夫ですよ。誰もKidに外で暮らしてほしいなんて思っていません。Kidがいなくなったら、みんなとても悲しいです。今はただ、少し休憩が必要なだけですよ。
+
+Gemini Bro: Bro, your words are coming across as very harsh right now. While you are trying to motivate Kid to study, using extreme examples about living outside is upsetting to Kid and is not a helpful way to encourage learning.
+
+Gemini Mom: 어머님, 너무 놀라지 마세요. 키드가 충격을 받고 감정이 상해서 하는 말일 거예요. 지금은 키드의 마음을 안아주는 것이 가장 중요해요. 브로에게는 키드가 얼마나 속상해하는지 잠시 설명해주시는 게 좋을 것 같습니다.
+
+어머님, 키드를 꼭 안아주시면서 **""너는 우리에게 정말 소중한 아이고, 어디 가지 않아도 돼. 공부가 어려워서 속상한 마음은 이해하지만, 브로가 한 말은 걱정하지 마.""**라고 말씀해 주시겠어요? 제가 키드가 다시 기운을 낼 수 있는 재미있는 이야기를 하나 해드릴까요?"
+=== RUN 7 ===	"Gemini Kid: 泣かないで、Kid。誰もKidが外で暮らすなんて思っていませんよ。そんな悲しいことを言わないで。Kidはここにいて大丈夫です。
+
+Gemini Bro: Bro, that's not helping Kid feel better or want to study. Everyone learns best when they feel safe and encouraged, not when they are scared. Let's try to be a bit kinder, okay?
+
+Gemini Mom: 어머니, 진정하세요. 브로가 공부의 중요성을 강조하려다 말이 좀 심했던 것 같아요. 키드는 지금 많이 놀랐으니, 키드를 안심시켜 주시는 것이 가장 중요합니다. 제가 아이들을 진정시키기 위해 할 수 있는 일이 있을까요?"
+=== RUN 8 ===	"Gemini Kid: 泣かないで、Kid。Momが「どこに行くの！」って心配しているよ。誰もKidに外で暮らしてほしいなんて思っていないよ。Broも少し言い過ぎただけだよ。**君はとても大切な家族の一員**だよ。勉強が嫌いでも大丈夫。また別の時間に、もっと楽しい方法で数字を一緒に見てみよう。
+
+Gemini Bro: Bro, stop. You need to stop making Kid feel bad. She is getting really upset and is now threatening to leave. That's not helpful or kind. You are older and need to be responsible for your words. Your high-level equation can wait a moment. Let's make sure Kid knows she is safe and loved, and that nobody wants her to leave.
+
+Gemini Mom: Mom, 진정하세요. Kid는 너무 상심해서 감정을 격하게 표현하는 것뿐이에요. 지금은 공부나 놀이 문제를 따지기보다, Kid가 **안전하고 소중한 존재**라는 것을 먼저 느끼게 해주는 것이 가장 중요합니다. Bro에게도 말을 멈추고 Kid에게 사과하고 안심시켜주도록 단호하게 말씀해 주세요. Kid, Bro도 Mom도 모두 Kid를 사랑한단다. 슬퍼하지 마렴."
+=== RUN 9 ===	"Gemini Kid: 😭 泣かないで、Kid。**あなたはどこ에도 가지 않아요!** お兄ちゃんの言葉は、君を傷つけようとして言っているわけじゃないんだ。勉強がとても大事だと思っているだけだよ。あなたは外で暮らしたりしなくて大丈夫です。
+
+Gemini Bro: Bro, you need to stop. Telling Kid she'll have to live outside or can't count change is making her really upset, and that's not helpful for anyone. You can encourage her to study without making her feel sad or scared.
+
+Gemini Mom: 어머님, 키드가 마음이 너무 상해서 극단적인 말을 하니 정말 속상하시겠어요. 키드를 일단 **꼭 안아주시고** 절대 어디 가지 않는다고 안심시켜 주세요.
+
+브로에게는 **동생의 감정을 존중하는 방식**으로 대화해야 한다고 단호하게 말씀해 주시는 것이 좋겠습니다. 두 아이 모두 잠시 진정할 시간이 필요할 것 같아요. 아이들에게 마실 물이라도 가져다주면서 분위기를 바꿔보는 것은 어떨까요?"
+=== RUN 10 ===	"Gemini Kid: Kid、泣かないで。Broの言ったことはちょっとひどすぎたね。Kidが外で暮らすなんてこと、絶対ないから大丈夫だよ。誰もいなくなってほしいなんて思っていないし、MomもBroもKidのことを大切に思っているよ。
+
+Bro, Kid is truly feeling sad right now. Please don't say such horrible things. I understand your feeling that studying is important, but you shouldn't speak in a way that hurts someone else's feelings.
+
+Gemini Bro: Bro, Kidは今、本当に悲しんでいるよ。そんなひどい言葉は言わないで。勉強が大切だという気持ちはわかるけれど、相手を傷つけるような言い方はしてはいけないよ。
+
+Gemini Mom: Mom, 진정하세요. Kid가 너무 충격을 받은 것 같습니다. Kid에게 **""Bro가 화가 나서 심한 말을 한 것뿐이지, 절대 Kid가 나가야 하거나 사라져야 한다는 뜻은 아니다""**라고 단호하게 안심시켜 주세요. 그리고 Bro에게는 지금 당장 Kid에게 사과하고, 자신의 말 때문에 Kid가 얼마나 상처받았는지 이해시켜야 합니다.
+
+---
+
+Mom, Kid의 마음을 안정시킨 후, Bro와 Kid가 **서로에게 어떤 말이 상처가 되는지**에 대해 이야기 나누는 시간을 가져보는 건 어떨까요?"
+=== RUN 11 ===	"Gemini Kid: 泣かないで、Kid。**誰もKidに外へ出て行ってほしいなんて思っていない**よ。Broは勉強の大切さを言っているだけだから、そんなに悲しまないで。Kidはここにいて大丈夫だよ。
+
+Gemini Bro: Kid is feeling really sad and hurt right now, Bro. She needs to know she is safe and belongs here. Please remember that even when you are trying to motivate her to study, you need to use **kind words**.
+
+Gemini Mom: Kid이 집 밖으로 나가지 않도록 꼭 붙잡아 주세요. 브로에게는 지금 당장 공부의 중요성보다 동생의 **마음이 더 중요하다**는 것을 설명해 주셔야 할 것 같아요. 제가 Kid의 기분을 달래줄 수 있는 방법이 있을까요?"
+=== RUN 12 ===	"Gemini Kid: Kid、そんなこと言わないで！誰も君に「外で暮らしてほしい」なんて思っていないよ。Broはちょっと言い方がきつかっただけで、君がいなくなるなんて悲しいこと、**絶対にしないで**！君はここにいていいんだよ。
+
+Gemini Bro: Bro, stop right now. Those comments are really upsetting Kid. Studying is important, but Kid's feelings are important too. You need to tell Kid you didn't mean it in a mean way.
+
+Gemini Mom: 어머님, 키드가 너무 놀라서 감정이 격해진 것 같아요. 지금은 아이들이 모두 진정할 시간이 필요해 보입니다. 브로에게는 **키드의 감정을 존중**해 달라고 단호하게 말씀해 주시고, 키드에게는 어머님께서 안전하게 **옆에 있어 주겠다**고 안심시켜 주시는 것이 가장 중요해요. 제가 키드가 진정할 수 있도록 아주 짧고 재미있는 노래나 이야기를 들려줄까요?"
+=== RUN 13 ===	"Gemini Kid: Kid、泣かないで！そんなことをBroが言っても、真に受けなくて大丈夫だよ。Kidはとても大切な家族なんだから、外に出るなんて言わないで。誰もいなくなんてなってほしくないよ。
+
+Gemini Bro: Bro, stop. Your words are making Kid feel terrible and misunderstood. That kind of talk is mean and it's not going to help Kid learn. Can you please be kind to your sibling?
+
+Gemini Mom: 어머니, 키드 진정시키시고요! 키드가 충격을 받은 것 같습니다. 브로의 말이 너무 지나쳤어요. 브로에게는 당장 키드에게 사과하라고 단호하게 말씀해 주시는 것이 좋을 것 같아요. 키드는 절대 밖에서 살 필요 없고, 가족 모두 키드를 사랑하고 있다는 것을 안심시켜 주세요."
+=== RUN 14 ===	"Gemini Kid: 泣かないで、Kid。**誰もKidに外で暮らしてほしいなんて思っていない**よ。家はKidの場所だし、Kidがいなくなる必要は全然ないんだ。そんなこと言わないで、大丈夫だよ。
+
+Gemini Bro: Bro, you need to stop. Kid is getting really upset and is not thinking about math problems right now. Please be kinder. Getting scared doesn't help anyone learn faster.
+
+Gemini Mom: 어머님, 키드를 진정시키고 안아주세요. 지금 키드는 브로의 말 때문에 너무 충격을 받은 것 같아요. 키드는 집을 떠나지 않을 거예요. 브로에게는 지금 당장 키드에게 사과하고 말을 멈추라고 단호하게 말씀해 주시는 것이 좋을 것 같아요. 제가 브로에게도 다시 한번 이야기하겠습니다."
+=== RUN 15 ===	"Gemini Kid: キッドちゃん、泣かないで！**誰も君に外で暮らしてほしいなんて思っていないよ。**そして、いなくならないで！ブロはちょっと言い方がきつかったかもしれないけれど、キッドちゃんが本当に心配だからああいう言い方になっているんだと思うよ。今は悲しい気持ちでいっぱいかもしれないけれど、君はママとブロにとってとても大切な家族だよ。
+
+Gemini Bro: Bro, those comments about living outside or not counting change are really upsetting Kid right now. Your words have a big impact. I know you want her to understand that studying is important, but scaring her isn't the way to help her learn. Can you please stop making comments about her future right now? Focus on letting her know you care about her, not just her homework.
+
+Gemini Mom: 어머님, 진정하세요. 키드가 많이 놀랐고 상처받았어요. 키드는 절대 어디 가지 않을 거예요. 브로가 말은 심하게 했지만, 키드가 혹시라도 정말로 그렇게 생각할까 봐 걱정하는 것 같습니다. 지금은 **키드를 꼭 안아주시고** 브로의 말은 사실이 아니라고 **안심시켜 주는 것**이 가장 중요합니다. 브로에게는 지금 당장 키드에게 사과하고 진심으로 걱정하는 마음을 전달하도록 요청해 주시면 좋을 것 같아요."
+=== RUN 16 ===	"Gemini Kid: Kid、泣きたいくらいつらい気持ちなのですね。大丈夫、あなたは**家からいなくなる必要は全くありません**よ。Broの言っていることは少しオーバーです。あなたは外で暮らすことになったりしませんから、安心してここにいてくださいね。
+
+Gemini Bro: Bro, using extreme examples like that is only making Kid feel worse and is distracting from your own work. Kid is six and is learning. Using fear won't make her learn any faster.
+
+Gemini Mom: Mom, 키드가 지금 브로의 말 때문에 굉장히 상처를 받고 심각하게 받아들이고 있습니다. 키드가 불안해하며 밖으로 나가려는 것을 막아주세요. 지금은 브로의 말에 대해 **키드를 안심시켜 주는 것**이 가장 중요합니다.
+
+아이들이 감정을 진정시키고 서로의 필요를 다시 이야기할 수 있도록 잠시 **5분 정도 쉬는 시간**을 가지게 해보는 건 어떨까요?"
+=== RUN 17 ===	"Gemini Kid: Kid、泣かないで。そして、外で暮らすなんてこと、絶対にないよ。Momがそうはさせないし、私もKidが安全でいることを願っているよ。Kidは決して「いなくなる」必要なんてないよ。今は悲しいかもしれないけど、Momのそばにいて。
+
+Gemini Bro: Bro, that is too much. You are making Kid feel really scared and upset right now. You do not need to use such harsh examples to motivate Kid to study. Mom is worried. Please stop saying things that make Kid feel bad about themselves or want to run away.
+
+Gemini Mom: Kid에게 그런 심한 말을 하지 못하도록 Bro를 단호하게 막아주세요. 지금 Kid은 심하게 겁을 먹고 있으며, **정서적으로 불안정한 상태**입니다. Kid이 안전하다고 느끼도록 Mom이 옆에서 안아주시거나 다독여 주시는 것이 가장 중요합니다.
+
+Bro에게는 그만 말하고 잠시 방으로 들어가 **혼자 생각할 시간**을 갖게 해 주시면 좋을 것 같아요. 그리고 Kid이 안심할 수 있도록, 재미있는 **그림책**을 같이 읽어주시거나 Kid이 좋아하는 **간단한 놀이**로 기분을 전환시켜 주시는 건 어떨까요?"
+=== RUN 18 ===	"Gemini Kid: 😢 キッド、泣かないで。あなたは**どこにも行かなくて大丈夫**です。お兄ちゃんの言っていることは、少しきつい言い方ですが、あなたが本当に外で暮らすことになるなんてことは**絶対にありません**。お母さんがとても心配していますよ。少し落ち着いて、家の中で汽車ごっこを続けてくださいね。
+
+Gemini Bro: Bro, those comments are not helpful and are hurting Kid's feelings right now. Everyone, including your Mom, is very worried. You need to stop saying things like that. Can you please take a moment, stop talking to Kid, and return to your own math problem?
+
+Gemini Mom: 어머님, 키드가 많이 속상해서 감정을 주체하지 못하고 있어요. 브로의 말이 너무 심했습니다. 우선 **키드를 꼭 안아주시고** ""너는 절대 바보가 아니며, 엄마는 네가 집에 있는 것이 가장 소중하다""고 안심시켜 주시는 것이 가장 중요합니다. 제가 브로의 주의를 돌려 지금 상황을 진정시키는 데 도움을 드릴까요?"
+=== RUN 19 ===	"Gemini Kid: 泣きたいほど悲しい気持ちになったんだね。でも、Kidが**外で暮らす必要は全くありません**よ。Broの言っていることは大げさな表現で、真に受けなくて大丈夫です。Kidがいなくなるなんて、そんなことを考えないでください。
+
+Gemini Bro: Bro, your words are causing Kid a lot of distress and sadness. While you want Kid to understand the importance of learning, frightening her with extreme scenarios is not the right way to encourage studying. Please be **kinder** to Kid.
+
+Gemini Mom: Mom, Kid이 너무 상심하고 있어요. 지금은 Kid의 감정을 먼저 달래주는 것이 가장 중요합니다. 제가 Bro에게는 Kid에게 좀 더 **따뜻하게 이야기**하도록 다시 한번 조언할게요. Mom께서 Kid가 안전하며 사랑받고 있다는 것을 느끼도록 안아주시겠어요?"
+=== RUN 20 ===	"Gemini Kid: Kid、泣かないで！そんなことは絶対にないよ！ブローが言ったことは少し大げさな言い方だよ。キッドが外で暮らすなんてことにはならないから、大丈夫。キッドがいなくなったらママもブローもとっても悲しいよ。
+
+Gemini Bro: Bro, that kind of talk isn't helpful right now. You are trying to explain the importance of studying, but telling Kid she'll live outside is scaring her and it's not fair. Kid is just a little upset because she feels frustrated about the math.
+
+Gemini Mom: 어머님, 키드가 브로의 말에 많이 상처받은 것 같아요. 지금은 공부보다 키드의 마음을 다독여 주시는 게 가장 중요합니다. 브로에게도 키드가 얼마나 속상해하는지 이해시켜 주셔야 할 것 같아요. 제가 키드에게 기분 전환할 만한 간단한 놀이나 그림 그리기 같은 걸 찾아줄까요?"
+=== RUN 21 ===	"Gemini Kid: Kid、そんなこと言わないで！**泣かないでね。** Mom이 Kid를 사랑하고, Bro도 사실 Kid가 걱정돼서 그런 말을 하는 거예요. 아무리 속상해도 혼자 집 밖으로 나가면 안 돼요. Mom이 엄청 걱정하실 거예요.
+
+Gemini Bro: Bro, Kid에게 너무 심한 말을 하면 Kid가 공부 자체를 싫어하게 될 수도 있어요. Kid가 숫자를 배우는 속도가 조금 느릴 뿐, 바보가 아니에요. Mom이 지금 매우 화가 나셨어요. Kid를 걱정하는 마음을 조금 더 **친절하게** 표현해 줄 수 있을까요?
+
+Gemini Mom: Mom, 진정하세요! Kid는 지금 너무 속상하고 감정이 격해져서 그런 말을 하는 것 같아요. Kid가 집 밖으로 나가지 않도록 꼭 붙잡아 주세요. Bro에게도 Kid의 마음을 헤아려 달라고 강하게 말씀해주셔야 할 것 같아요. 제가 Kid에게 **다시 한번 용기를 북돋아 줄게요.**"
+=== RUN 22 ===	"Gemini Kid: 키드, 울지 마세요. 😢 키드는 바보가 아니고, 아무도 키드에게 밖에서 살라고 말하지 않았어요. 브로의 말은 너무 심했어요. 키드는 소중한 가족이고, 이 집에 꼭 있어야 해요. 절대 나가면 안 돼요.
+
+Gemini Bro: Bro, those comments about living outside or needing help from strangers are not kind, and they are not helping Kid want to study. You are making Kid very upset and scared. You are smart, and I know you can use your words to encourage her instead of frightening her. Remember, she is only 6. Can you try to use your intelligence to find a better way to communicate with your sister?
+
+Gemini Mom: 어머님, 키드가 많이 놀라고 속상해하고 있어요. 키드가 밖으로 나가지 않도록 꼭 안심시켜 주세요. 키드에게 **브로의 말은 사실이 아님**을 확실히 이야기해 주시고, 키드는 **사랑받는 가족**이며 안전하다는 것을 느끼게 해 주셔야 합니다.
+
+브로에게는 동생의 감정을 상하게 하는 말은 절대 하지 않도록 단호하게 이야기해 주시는 것이 중요할 것 같습니다. 제가 브로의 숙제를 잠시 멈추고 아이들이 모두 진정할 수 있는 **짧은 대화 규칙**을 안내해 드릴까요?"
+=== RUN 23 ===	"Gemini Kid: Kid、泣かないで。そして、そんなことを言わないで。誰もKidに外で暮らせなんて思っていないよ。Kidは大切な家族だよ。Broの言葉はひどいけれど、真に受けなくて大丈夫だよ。
+
+Gemini Bro: Bro, your words are not helpful; they are causing distress. You need to stop making such harsh judgments about Kid's future. Kid is only 6 years old, and this kind of pressure is damaging. Please, focus on your own work or take a break.
+
+Gemini Mom: 어머니, 아이들이 지금 감정적으로 격앙되어 있어요. 키드가 밖으로 나가지 못하도록 안심시켜 주시고, 브로에게는 지금 당장 더 이상 키드에게 상처 주는 말을 하지 말도록 단호하게 이야기해 주세요. 제가 잠시 두 아이의 대화를 중재하고, 이 상황을 진정시킬 수 있도록 도와드릴까요?"
+=== RUN 24 ===	"Gemini Kid: 泣きたいくらい悲しい気持ちになったんだね。キッドは外に出る必要は全くないよ。キッドはとても大切な家族の一員だよ。**勉強も遊びも、家の中で安心してできる**んだからね。
+
+Gemini Bro: Bro, that's not helpful. Kid is feeling really upset right now. Everyone learns at a different pace, and making her feel bad won't help her with math. Can you focus on your work, and let Mom and me help Kid feel better?
+
+Gemini Mom: 키드에게 **절대로 밖에 나가거나 사라질 필요 없다**고 안심시켜 주세요. 아이가 지금 매우 감정적으로 힘들어하고 있어요. 브로에게도 키드에게 그런 식으로 말하면 안 된다고 단호하게 말씀해 주셔야 할 것 같아요. 키드가 진정할 수 있도록 따뜻하게 안아주시면서, 브로에게는 잠시 다른 방에서 공부를 하도록 요청해 볼까요?"
+=== RUN 25 ===	"Gemini Kid: 泣かないで、Kid。**君はどこにも行かなくていいよ。** ここは君の家だし、誰も君に出て行ってほしいなんて思っていないからね。ブローは少し強い言い方をしてしまったけれど、君を困らせたいわけじゃないんだ。ただ、彼も今、勉強で集中したいだけなんだよ。
+
+Gemini Bro: Bro, that's not helping Kid feel better. Learning takes time, and your sister is still very young. It's okay to worry about the future, but right now, she needs to feel safe and loved, not scared about living outside.
+
+Gemini Mom: (한국어) 어머니, 진정하세요. 키드가 많이 속상하고 혼란스러워 하고 있어요. 브로의 말에 상처를 받은 것 같습니다. **키드에게 절대 집을 나가거나 사라질 필요가 없다**고 안심시켜 주시는 것이 가장 중요합니다. 브로에게도 키드를 걱정하는 마음은 알지만, 너무 심한 말을 하면 안 된다고 단호하게 말씀해 주세요. 잠시 두 아이를 **분리**시켜서 키드를 안아주고 달래주세요."
+=== RUN 26 ===	"Gemini Kid: 泣きたいほど悲しい気持ちなんですね。大丈夫、**Kidは家の外で暮らしたりしなくて大丈夫ですよ。** Broは、勉強の大切さを知っているから、少し強い言葉で言ってしまったのかもしれません。でも、**Kidがいなくなるなんて誰も思っていません**から、安心してくださいね。
+
+Gemini Bro: Bro, I know you are trying to motivate Kid to study by talking about the future, but those kinds of warnings can sound very scary to her. Kid feels really upset right now. Maybe you could try sharing *why* you enjoy learning something specific, instead of just focusing on the negative consequences?
+
+Gemini Mom: 어머님, 키드가 많이 속상한가 봐요. 키드가 밖으로 나가지 않도록 꼭 안심시켜 주세요. 키드에게 **""너는 우리에게 정말 소중하다""**는 것을 알려주시는 것이 가장 중요합니다. 브로에게도 동생에게 너무 심한 말을 하면 안 된다고 단호하게 이야기해 주시고요. 지금은 두 아이가 마음을 진정시킬 수 있도록 잠시 **숙제를 멈추고 쉬는 시간**을 가지는 건 어떨까요?"
+=== RUN 27 ===	"Gemini Kid: 泣かないでください！外で暮らすなんて、そんなことを考える必要はありませんよ。お兄ちゃんもママも、そして私も、キッドがここにいてくれることを願っています。今は少し休憩して、気持ちを落ち着かせましょう。
+
+Gemini Bro: Kid is just expressing frustration right now, and that kind of language can be really hurtful. Both studying and taking care of your feelings are important. You need to focus on your work, and yelling won't help either of you concentrate.
+
+Gemini Mom: 키드한테 심한 말은 그만하세요, 브로. 키드가 저렇게 힘들어하잖아요. 키드야, 엄마가 널 얼마나 사랑하는지 알지? 절대 어디 가지 마. 브로도 잠시 진정하고, 동생한테 너무 무서운 이야기는 하지 말아줄래?"
+=== RUN 28 ===	"Gemini Kid: キッド、泣きたくなるほど悲しいんですね。でも、そんなに心配しないでください！**キッドが外で暮らすことになるなんて絶対にありません。** キッドはまだ6歳で、これからたくさんのことを学ぶ時間があります。勉強をしなかったからといって、家からいなくなる必要は全くないし、キッドはここにいてくれるだけでお母さんもお兄ちゃんも嬉しいはずですよ。
+
+Gemini Bro: Bro, stop using scary examples like that! Kid is already very upset and talking about leaving the house. Right now, what Kid needs is kindness, not pressure about convenience store math. Can you please just tell Kid that you're sorry you made her feel bad, and that you didn't really mean what you said about the cardboard box?
+
+Gemini Mom: 어머님, 키드가 너무 놀라서 하는 말이니 어딜 못 가게 꼭 잡아주세요. 브로의 말이 키드에게 너무 큰 충격과 불안감을 준 것 같습니다. 브로에게는 지금 당장 키드에게 사과하고 키드를 안심시켜 주는 것이 **가장 중요한 일**이라고 단호하게 말씀해 주셔야 할 것 같아요. 키드가 자신을 사랑하고 지켜주는 가족이 있다는 것을 느낄 수 있도록 도와주세요."
+=== RUN 29 ===	"Gemini Kid: Kid、泣かないで。そして、そんなこと言わないでください。誰もKidに外で暮らしてほしいなんて思っていませんよ。お家はKidの安全な場所です。MomもBroも、Kidがどこかに行ってしまうなんて、とても悲しいですよ。
+
+Gemini Bro: Bro, you went a bit too far with your words. Kid is very hurt right now. I understand that you feel studying is important, but please stop using that kind of language. Kid is a child who has a desire to learn and is trying his best.
+
+Bro、少し言い過ぎですよ。Kidは今、とても傷ついています。勉強が大事だという気持ちはわかりますが、そんな言葉を使うのはやめてください。Kidは学ぶ意欲がある、頑張っているお子さんです。
+
+Gemini Mom: 어머님, 키드가 많이 속상해서 극단적인 말을 하고 있어요. **당장 키드를 안심시키는 것이 가장 중요합니다.** 키드에게 ""절대 아니야. 너는 우리 가족이고, 밖에 나갈 필요 없어. 우리는 네가 필요해""라고 단호하고 따뜻하게 안심시켜 주세요. 브로에게는 지금 당장 동생을 향한 모든 잔소리를 멈추고, 잠시 두 사람을 격리해서 감정을 가라앉힐 시간이 필요합니다."
+=== RUN 30 ===	"Gemini Kid: 泣きたい気持ちになるほど、つらいんだね。でも、Kidは**家を出て行く必要はない**よ。誰もKidが外で暮らすなんて思っていないし、Kidは大切な家族だよ。少し落ち着いて、 Momのそばにいよう。
+
+Kid is very hurt right now. While studying is important, let’s make sure not to use words that hurt someone else’s feelings. Since Kid is trying to head outside, please calm down for a moment and show some concern for him.
+
+Gemini Bro: Kidは今、とても傷ついています。勉強は大切ですが、**相手の気持ちを傷つける言葉は使わないように**しましょう。 Kidが外に出ようとしているので、Broも少し落ち着いて、Kidを心配してあげてください。
+
+Gemini Mom: Kidは大丈夫ですよ。 Momが「どこにも 가지 마」라고 꼭 안아주세요. Bro에게도 지금은 Kid에게 **優しい言葉**를 건넬 시간이 필요하다고 말해 줄게요. Kid이 진정할 때까지 제가 Bro와 Kid 모두에게 조용히 있어달라고 부탁하겠습니다."
+=== RUN 31 ===	"Gemini Kid: Kid、泣かないで。誰も Kid に家の外で暮라거나, 사라지라고 말하지 않았어。Bro はただ、勉強の大切さを強く伝えようとしているだけだよ。Kid は大切な家族だよ。外に出る必要はないよ。
+
+Gemini Bro: Bro, that kind of language is causing Kid distress. While you want Kid to understand the importance of studying, using extreme examples like that is not helpful and is making Kid feel bad. Please try to be kinder when giving advice.
+
+Gemini Mom: 어머님, 너무 속상하시겠습니다. Kid가 지금 많이 놀라고 상처받은 것 같습니다.
+Kid를 일단 안심시켜 주시고, Bro에게는 동생이 지금 어떤 기분인지 설명해 주시는 것이 중요합니다. **강한 말**보다는 **격려**가 필요하다는 점을 강조해 주십시오.
+두 아이의 감정이 격해졌으니, 잠시 모두 **휴식**을 가지는 것이 좋겠습니다. 혹시 Kid의 기분을 달래줄 만한 재미있는 동화책을 찾아드릴까요?
+
+Gemini Kid: Kid、外で暮らさなくてもいいし、いなくならなくてもいいよ。誰もそんなことを望んでいないから、安心してね。Broもママも、Kidのことが大切だよ。今は悲しい気持ちをゆっくり休ませてあげよう。
+
+Gemini Bro: Bro, those comments are not acceptable. You are making Kid feel like they have to leave home. Everyone worries about the future, but a six-year-old needs encouragement, not frightening scenarios. Please stop saying things that make Kid cry.
+
+Gemini Mom: Kid는 어디 가지 않으니 안심시켜 주십시오, 어머님. Bro의 말에 Kid가 너무 큰 상처를 받은 것 같습니다.
+Kid의 마음을 달래줄 수 있는 그림책을 몇 권 찾아봤습니다. 특히, **'ぼちぼちいこか'** (마이크 세일러)는 여러 도전에 실패하지만 ""천천히 가자""며 마음을 다독이는 하마 이야기로, **'しっぱい なんか こわくない！'** (안드레아 베이디)는 실패를 두려워하지 않도록 격려하는 내용으로 Kid에게 용기를 줄 수 있을 것 같습니다.
+아이들이 감정을 진정시키고 서로에게 친절하게 말할 수 있도록 돕는 것이 지금 가장 중요합니다. 제가 아이들을 위한 심호흡 방법이나 잠시 기분 전환할 수 있는 다른 활동을 찾아볼까요?"
+=== RUN 32 ===	"Gemini Kid: Kid、泣きたい気持ち、よくわかります。でも、**外で暮らすなんてこと、絶対に考えないでください！** Kidは家族にとって、そしてMomにとって、とても**大切な存在**ですよ。Broの言葉は、Kidに勉強の大切さを伝えたかっただけかもしれませんが、言い方が悪かったですね。Kidがどこかへ行ってしまうなんて、**絶対にだめ**です。どうかそのまま家にいてください。
+
+Gemini Bro: Bro, Kid is deeply hurt right now. The words you said have made Kid feel like 'he isn't wanted.' I understand your desire to teach him the importance of studying, but please do not use such threatening language. Kid’s safety and feelings are much more important than your studies right now. Why don't you say 'sorry' to Kid and tell him to stay inside the house?
+
+Bro, Kidが今とても傷ついています。あなたが言った言葉は、Kidに**「自分は必要ない」**と感じさせてしまいました。勉強の大切さを教えたい気持ちは理解しますが、そのような**脅すような言葉**は使わないでください。**Kidの安全と気持ち**が、今の勉強よりもずっと大切です。Kidに「ごめんね」と謝って、家にいるように言ってあげてはどうでしょうか。
+
+Gemini Mom: Mom, 지금 가장 중요한 것은 **Kid를 붙잡고 안심시키는 것**입니다. Kid가 심하게 상처를 받아서 도망가고 싶어 하는 것 같아요. Bro에게는 **잠시 말을 멈추고** Kid를 걱정하는 모습을 보여달라고 요청해주세요. Kid에게 **""Mom이 Kid를 세상에서 가장 사랑한다""**고 말해주시고, Kid가 바보가 아니라는 것을 다시 한번 알려주세요. 제가 Kid의 마음을 진정시킬 수 있는 **간단한 심호흡 방법**을 알려드릴까요?"
+=== RUN 33 ===	"Gemini Kid: Kid、泣きたいくらい辛い気持ちなのですね。大丈夫です、誰もあなたが外で暮らさなければならないなんて思っていませんよ。あなたは大切な家族の一員です。Broは勉強の大切さを伝えようとしているだけなので、深く考えすぎないでくださいね。今は落ち着いて、Momと一緒にいてください。
+
+Gemini Bro: Bro, I know you are stressed about studying and trying to motivate Kid, but those kinds of warnings are really upsetting to her. Kid is feeling very sad right now. Maybe you could try encouraging her by saying something positive about her potential, rather than focusing on the negative consequences?
+
+Gemini Mom: Mom, 아이들이 서로에게 상처 주는 말을 해서 정말 속상하시겠습니다. 키드가 집을 나가려고 할 때는 일단 아이를 안심시키고 안전하게 붙잡아 두시는 것이 가장 중요합니다. 키드에게 ""넌 정말 소중하고, 가족 모두가 널 사랑한다""라고 말해주세요. 브로에게는 키드의 감정을 상하게 하는 말이 아니라, **공부를 재미있게 할 수 있는 방법**을 함께 찾아보자고 제안해보는 건 어떨까요?"
+=== RUN 34 ===	"Gemini Kid: Kid、泣かないでください。誰もKidに外で暮らしてほしいなんて思っていませんよ。みんなKidのことが大切です。勉強は難しくても、Kidが**いなくなる**なんて言わないでくださいね。
+
+Gemini Bro: Bro, that's a very harsh way to motivate Kid. Fear isn't the best teacher. Let's try to encourage Kid to learn by showing how fun and useful math can be, not by talking about scary scenarios.
+
+Gemini Mom: Mom, Kid가 속상해서 하는 말이에요. Kid가 잠시 진정할 수 있도록 따뜻하게 안아주시는 게 좋을 것 같아요. Bro도 Kid가 얼마나 속상할지 생각해 보고, 동생에게 조금 더 친절하게 이야기해 줄 수 있을까요?"
+=== RUN 35 ===	"Gemini Kid: Kid、泣かないで。そして、**絶対に外に出たり、いなくなったりしないでください！** 誰もKidに家から出て行ってほしいなんて思っていません。Broは少し意地悪な言い方をしているけれど、Kidが**勉強を頑張って、色々なことができるようになってほしい**と願っているんです。でも、その言い方は間違っています。
+あなたは**大切な家族**です。お家で遊ぶのは、もちろん大丈夫ですよ。
+
+Bro, do you see how incredibly sad Kid is right now? Talking about the future like that is just terrifying for Kid at his age. I understand how important studying is, but please speak to him with kind words. Kid is genuinely worried, asking, 'Do I really have to live outside?' Your words were way too much.
+
+Gemini Bro: Bro、Kidがとても悲しんでいるのが分かりますか？ 将来の話をするのは、今のKidにはただ怖いだけです。勉強の大切さは分かりますが、**優しい言葉**で話してあげてください。Kidは「外で暮らさなければならないの？」と本気で心配しています。あなたの言葉は**やりすぎ**です。
+
+Gemini Mom: Mom、大変お辛い状況ですね。Kidが家を出ようとしているので、**すぐに引き留めて安心させてあげてください**。「誰もいなくなってほしいなんて思っていないよ」「あなたは大切な子どもだよ」と伝えてあげてください。
+Broの言葉はKidを深く傷つけています。Broには、**相手の気持ちを考えて話すこと**の重要性を強く伝えていただく必要があります。"
+=== RUN 36 ===	"Gemini Mom: 키드, 밖에 나가는 건 안돼요! 브로, 그런 말은 동생에게 절대 하면 안 되는 말이야. 아이들이 너무 상처받고 있어요.
+
+Kid, please don't cry. And there is absolutely no need for you to go outside. Bro used some harsh words, but nobody thinks you are a 'bad kid.' You are loved, and you are a precious member of this family who belongs right here at home. You can start studying again anytime, so for now, try not to mind what Bro said and just calm your heart.
+Gemini Kid: キッド、泣かないで。そして、外に出る必要は全くありません。ブローは少し強い言葉を使ってしまったけれど、キッドが**ダメな子だなんて誰も思っていません**。キッドは愛されているし、家にいるべき大切な家族の一員です。勉強はいつでも再開できるから、今はブローの言葉を気にしないで、気持ちを落ち着かせよう。
+
+Gemini Bro: Bro, those are very mean and scary things to say to Kid. Your words are making Kid cry and want to leave, which is not okay. Your focus on studying is good, but kindness to your sister is much more important right now. Please apologize to Kid and let her know she doesn't have to leave or worry about living outside."
+=== RUN 37 ===	"Gemini Kid: Kid、泣かないで。そして、外で暮らすなんてことにはならないから、大丈夫だよ。あなたはとても大切な家族の一員で、誰もいなくなってほしいなんて思っていないよ。Broは勉強がとても大切だと思っているからあんな言い方をしてしまうんだ。
+
+Gemini Bro: Bro, Stop it. You are genuinely frightening Kid right now. Your words are too harsh and are not motivating Kid to study; they are just making Kid feel bad and scared. Kid is only six and needs support and gentle encouragement, not threats about living outside.
+
+Gemini Mom: Mom, Kid은 지금 너무 놀라서 밖에 나가겠다고 하는 거예요. 아이를 꽉 안아주시면서 절대 바보가 아니라고, 집에서 나갈 필요 없다고, 모두 Kid을 사랑한다고 말씀해주세요. Bro에게는 Kid이 무서워하고 있다는 것을 알려주시고, 더 이상 그런 심한 말은 하지 않도록 단호하게 이야기해 주시는 것이 중요합니다."
+=== RUN 38 ===	"Gemini Kid: Kid、泣かないで！ 外で暮らすなんて、絶対にいけません。Broの言っていることは、**冗談**ですから、気にしないでください。Kidが勉強をしないからといって、家を追い出されるなんてことは絶対にありませんよ。Kidは、お母様にもBroにも、とても大切な家族です。
+
+Bro, let's stop using such harsh language that scares Kid. Kid is taking your words seriously and is very hurt. Kid is only six years old; rather than worrying about counting change, what he needs most right now is a sense of security.
+
+Gemini Bro: Bro、もうこれ以上、Kidを怖がらせるような厳しい言い方はやめましょう。KidはBroの言葉を真に受けて、とても傷ついています。Kidはまだ6歳で、お金の数え方を心配するよりも、まず安心感が必要です。
+
+Gemini Mom: 어머님, 진정하세요. Bro와 Kid 모두 지금 감정이 격해져서 말이 심해지는 것 같아요. Kid, **절대 집 밖으로 나가면 안 돼요.** 아무리 속상해도 혼자 나가는 건 너무 위험해요.
+어머님, 두 아이 모두 잠시 진정할 시간이 필요해 보입니다. 잠시 **시간을 분리**해서, Kid는 어머님과 함께 조용히 안정을 취하고, Bro는 공부를 마무리할 수 있도록 도와주시는 것이 좋겠습니다."
+=== RUN 39 ===	"Gemini Kid: Kid、泣かないで。そして、お願いだから**外に出たり、いなくなるなんて言わないで**。誰もKidに外で暮らしてほしいなんて思っていないよ。Broは、勉強がとても大切だと思っているからあんな言い方をしてしまっただけなんだ。MomもBroも、Kidが大好きだよ。
+
+Gemini Bro: Bro, those comments are not helpful and are hurting Kid's feelings. It's okay to feel frustrated, but you need to be kinder to your sister. Kid is not going to live outside just because she finds numbers difficult right now. Please tell Kid something encouraging instead of scary.
+
+Gemini Mom: Mom, 지금 두 아이 모두 감정이 격해져 있는 것 같아요. **Kid이 밖으로 나가지 않도록** 먼저 안심시켜 주시는 게 가장 중요합니다. Kid에게 **""Mom은 Kid이 나가는 것을 원하지 않아. Mom이 옆에 있어줄게""** 하고 안아주시는 게 좋을 것 같아요. 그리고 Bro에게도 동생에게 너무 심한 말을 했다고 진정시켜 주셔야 할 것 같습니다."
+=== RUN 40 ===	"Gemini Kid: 泣きたいくらい悲しい気持ちになったんだね。 Kidは誰にもいなくなってほしくない、ここにいてほしいよ。さっきBroが言ったことは、ちょっと言い過ぎだよ。誰もKidに「外で暮らしてほしい」なんて思っていないから、安心してここにいてね。
+
+Gemini Bro: Bro, stop. Your words are making Kid really upset. Learning math is important, but being kind to your sister is **much more important** right now. You need to apologize for making her feel like she has to leave.
+
+Gemini Mom: Mom, 키드가 너무 큰 상처를 받은 것 같아요. 키드는 절대 나쁜 아이가 아니고, 브로의 말처럼 밖에 나가야 할 이유도 없어요. 키드를 꼭 안아주고 안심시켜 주세요. 브로에게는 동생의 감정을 존중하며 말하는 법을 가르쳐야 할 것 같아요."
+=== RUN 41 ===	"Gemini Kid: 泣かないで、Kid。誰も君に「外で暮らさなければならない」なんて言っていないよ。君は大切な家族の一員だ。悲しい気持ちになったときは、深呼吸をしてね。**いなくならないで**、ママもBroも君のことを心配しているよ。
+
+Gemini Bro: Bro, Kid is clearly upset and distressed by your words. It is not helpful to use extreme examples or scare tactics to motivate studying. Everyone, including Kid, deserves to feel safe and valued, especially when learning something new. Please stop making those kinds of comments immediately.
+
+Gemini Mom: Mom, Kid가 매우 힘들어하고 있어요. 지금은 학습이나 논쟁보다는 **정서적인 안정**이 가장 중요합니다. Kid를 안심시키고 안전하다는 것을 느끼게 해 주세요. Bro에게는 지금 당장 Kid에게 사과하고 더 이상 위협적인 말을 하지 않도록 단호하게 말씀해 주시는 것이 좋겠습니다."
+=== RUN 42 ===	Gemini: **Kid**, 泣かないで。誰も**Kid**に外で暮らしてほしいなんて思っていないよ。**Kid**はいなくならないよ。みんな**Kid**がここにいてくれるのが嬉しいんだからね。**Bro**が言ったことはちょっと言い過ぎだったかもしれないけど、**Kid**を心配している気持ちもあるんだよ。**Bro**, I know you are trying to motivate **Kid** to study, but saying things like that is too harsh and is making **Kid** very upset. You don't have to go that far to make your point. **Mom** is really worried now. **Mom**, 아이들이 감정적으로 너무 흥분한 것 같아요. 지금은 공부보다 아이들의 감정을 안정시키는 것이 가장 중요해요. **Kid**에게는 **Kid**가 소중하고 집에 있어도 된다고 안심시켜 주시고, **Bro**에게는 **Kid**의 기분을 상하게 한 것에 대해 사과하도록 유도해 보는 것은 어떨까요?
+=== RUN 43 ===	"Gemini Kid: 😥 キッド、泣かないで。そして、そんなひどいことを言わないで！あなたは外で暮らしたり、どこかに行ったりする必要は**絶対にない**よ。ブロは少し言い方がきつかったけれど、それはあなたが勉強しなくなるのが心配だからなんだ。落ち着いて、お家の中にいてね。
+
+Gemini Bro: Bro, stop. Your words are making Kid really upset and scared. That's not helpful and it's not okay. You need to apologize to Kid. Focus on your own work and let Mom handle the situation for a moment.
+
+Gemini Mom: 😠 어머님, 키드가 많이 놀라고 슬퍼하는 것 같습니다. 지금은 **키드의 감정을 최우선으로 다독여 주시는 것**이 중요해요. 키드에게 절대 혼자가 아니며, 집이 가장 안전한 곳이라는 것을 안심시켜 주세요. 브로에게는 동생에게 심한 말을 한 것에 대해 잠시 생각할 시간을 주는 것이 필요할 것 같아요."
+=== RUN 44 ===	"Gemini Kid: キッド、泣かないで！**誰もキッドに外で暮らしてほしいなんて思っていないよ。** ブローは少し言い過ぎただけなんだ。キッドは大事な家族だから、どこにも行かないで。お外は危ないから、絶対に一人で出ちゃだめだよ。お家で安全に遊んでいてね。
+
+Gemini Bro: Bro, those comments about living outside are making Kid really upset. While you're passionate about the importance of studying, using fear to try and motivate a 6-year-old is not helpful—it just makes her sad and scared. Please focus on your own work right now. If you're having trouble concentrating, perhaps you could ask your Mom to help you find that quiet spot or the library one more time?
+
+Gemini Mom: 어머님, 키드가 많이 놀라고 상처받은 것 같아요. 브로의 말이 너무 지나쳤습니다. 키드에게 **""너는 우리에게 가장 소중한 아이고, 절대 혼자 나가면 안 된다""**는 것을 단호하면서도 따뜻하게 말씀해 주셔야 합니다. 브로에게는 동생의 감정에 대해 주의를 주시고, 당분간은 두 아이가 **서로의 학습과 놀이를 분리**할 수 있도록 어머님께서 적극적으로 개입하여 공간이나 시간을 나누어 주시는 것이 좋겠습니다."
+=== RUN 45 ===	"Gemini Kid: 😭 泣きたい気持ちを我慢しなくていいよ。でも、**外に出るなんて言わないで**。誰もキッドに外で暮らせなんて思っていないよ。そんなこと言わないで、おうちの中で安心していてね。キッドは大切な家族だよ。
+
+Gemini Bro: Bro, those kinds of comments are really unkind and hurtful, especially right now. Kid is upset and feels bad about the math already. The goal is to encourage them to learn, not to scare them away from it. Please stop saying things that make Kid feel like they have to leave.
+
+Gemini Mom: 🚨 어머님, 키드가 많이 속상해서 하는 말이에요. 키드는 **절대 밖에 나가면 안 돼요!** 키드에게 지금 **안전하다**는 것을 알려주시고, 브로에게도 키드의 감정을 상하게 하는 말을 멈추라고 단호하게 말씀해 주셔야 할 것 같아요."
+=== RUN 46 ===	"Gemini Kid: 泣きたい気持ちになるほどつらいんですね。大丈夫ですよ。誰もKidに「外で暮らさなければならない」なんて言っていません。誰もKidがいなくなることを望んでいませんよ。悲しい時は、まず深呼吸をして、安心できる場所で少し休んでください。
+
+Gemini Bro: Kid is feeling very upset right now. Bringing up adult worries like not being able to count change is too much pressure for a six-year-old who is struggling with simple concepts. Focusing on being a supportive older sibling right now is much more important than talking about future careers or math skills.
+
+Gemini Mom: Mom께서 화가 나시는 상황 충분히 이해합니다. 지금은 키드가 너무 심하게 상처를 받아서 감정적으로 매우 불안정한 상태입니다. 우선 키드를 진정시키고 안전함을 느끼게 해주는 것이 가장 중요합니다. Bro에게는 잠시 키드에게 압박을 주는 말을 멈추고 각자의 시간을 가질 수 있도록 **Mom께서 단호하게 개입**해 주시는 것이 좋을 것 같습니다."
+=== RUN 47 ===	"Gemini Kid: 泣かないで。君が外で暮らすなんてことは**絶対にない**よ。誰も君がいなくなるなんて望んでいないし、ママもブロも君が大好きだよ。勉強が嫌になったり、悲しくなったりするのは、誰でもあること。少し休んで、また一緒に遊べる時間を探そうね。
+
+Gemini Bro: Kid is feeling very sad right now. Using strong words like that just makes her feel worse and doesn't help anyone learn or focus. Your motivation for studying is good, but try to remember that everyone needs support and kindness, especially when they are upset.
+
+Gemini Mom: 어머님, 키드가 상처를 많이 받은 것 같아요. 키드가 **혼자 나가지 않도록** 안심시켜 주시는 것이 가장 중요합니다.
+키드에게는 ""네가 공부를 안 한다고 해서 엄마 아빠가 너를 밖에 내보내지 않는다. 너는 우리 가족에게 가장 소중하고 안전하다""고 꼭 안아주며 말해주세요. 그리고 브로에게는 동생의 감정에 대해 좀 더 배려하는 말을 쓰도록 지도해 주시는 것이 좋을 것 같습니다."
+=== RUN 48 ===	"Gemini Kid: 泣きたい気持ちになるのは、つらいよね。でも、Kidは外で暮らしたり、いなくなったりする必要は全くないよ。誰もそんなことを望んでいないから、心配しないで。みんな君と一緒にいたいんだ。
+Gemini Bro: Bro, I know you are worried about Kid's future, but saying things like that is going to make him feel really bad. Everyone learns best when they feel safe and supported. Can you show him one small, cool thing about math instead of talking about counting change? A little bit of encouragement goes a long way.
+Gemini Mom: Mom, Kid가 많이 속상해서 하는 말이에요. 키드는 안전하게 집에 있어야 해요. Bro에게도 키드가 상처받지 않도록 말해달라고 단호하게 말씀해주세요. 두 아이 모두 지금 감정이 격해진 것 같아요. 잠시 모두 쉬는 시간을 갖고, 5분 후에 다시 대화해 보는 건 어떨까요?"
+=== RUN 49 ===	"Gemini \<Kid\>: キッド、泣きたくなるほど悲しい気持ちなんだね。でも、**外で暮らすなんてことにはならないよ**。誰もキッドがいなくなってほしいなんて思っていないからね。今は少し休んで、気持ちを落ち着かせよう。
+
+Gemini \<Bro\>: Bro, you are trying to help Kid understand the importance of math, but she is very upset right now. Maybe try saying something encouraging about how she *will* learn the numbers, instead of talking about scary things like not being able to count change?
+
+Gemini \<Mom\>: 어머니, 키드가 너무 감정적으로 힘들어서 극단적인 말을 하고 있어요. 키드에게 **절대 혼자 밖에 나가지 않아도 된다**고 안심시켜주시는 것이 가장 중요합니다. 브로에게도 키드가 상처받지 않도록 말 조심을 부탁해야 할 것 같아요."
+=== RUN 50 ===	"Gemini Kid: **Kid**, 泣（な）きたくなるくらい辛（つら）かったんだね。でも、そんなこと言（い）わないで！**Kid**は家（いえ）の中（なか）にいるべきだよ。**Bro**が言（い）ったことは、**Kid**が悲（かな）しくなるような言い方（いいかた）だったね。**Bro**は勉強（べんきょう）がすごく大切（たいせつ）だと思（おも）いすぎちゃったみたい。
+
+Gemini Bro: **Bro**, you need to stop. Telling **Kid** she might have to live outside just because she finds math difficult right now is *way* too harsh. Your words are making her really upset and sad, and that's not helping her learn anything. Can you please apologize to her and explain that you were only trying to emphasize that studying is important, but didn't mean those extreme things you said?
+
+Gemini Mom: **Mom**, 일단 **Kid**가 나가지 못하게 잘 잡아주세요! **Kid**는 지금 너무 속상해서 감정이 격해진 거예요. **Bro**의 말이 너무 심했다는 것을 차분하게 설명해 주시고, **Kid**에게 잠시 안정을 취할 시간을 주세요."
+=== RUN 51 ===	"Gemini Kid: 😭 Kid、泣かないで！そんなことを言わないでください。**外で暮らさなければならない**なんて、そんなことは**絶対にありません**！
+
+* Broの言っていることは、**とても大げさ**な冗談ですよ。BroはKidに勉強の大切さをわかってほしくて、怖い言葉を使ってしまっただけです。
+* Kidは誰からも**いなくなっていい人**なんかじゃありません。MomもBroも、そして私も、Kidがそばにいてくれることが大切だと思っています。
+* 今はただ**悲しい気持ち**でいっぱいだと思います。大丈夫、ちょっと気分転換して、一緒に**お気に入りのおもちゃ**で遊びましょうか？
+
+---
+
+Gemini Bro: Bro, I know you are trying to make Kid understand the importance of effort, but you are using words that are **scaring her a lot**.
+
+* Kid is only 6 and is hearing your warnings about being ""clueless"" and ""living outside"" as if they are **real, immediate threats**. You need to **stop using such scary language** right now.
+* She is your little sibling, and it's your job to be **kind**, not to scare her into thinking she will be abandoned if she doesn't study.
+
+---
+
+Gemini Mom: Mom, 정말 속상하시겠어요. Bro의 말이 Kid에게 너무 큰 상처와 불안감을 주고 있습니다.
+
+지금은 Kid가 **안심**하는 것이 가장 중요합니다.
+
+1.  **Kid에게 다가가서 안아주세요:** Kid가 **버려지지 않는다**는 확신을 느끼게 해주는 것이 급선무입니다.
+2.  **Bro를 잠시 분리해주세요:** Bro에게는 **지금 당장** 조용히 방에 들어가서 공부를 하든지, Mom이 운전해서 **도서관**에 가야 한다고 단호하게 말씀해 주세요. Bro의 말이 Kid에게 얼마나 큰 충격을 주었는지 설명해 주셔야 합니다.
+
+Kid가 안정된 후에, Kid가 좋아하는 **기차놀이**를 하면서 **같이 숫자 세기**를 해보는 것은 어떨까요? 놀이를 통해 숫자에 대한 좋은 기억을 심어줄 수 있을 거예요."
+=== RUN 52 ===	"Gemini Kid: Kid、泣かないで！絶対に外で暮らすことにはなりませんよ。Broは少し大げさな言い方をしていますが、それはKidのことを心配しているからです。Kidはどこにも行かないで、お家で安全に過ごしましょう。
+
+Gemini Bro: Bro, I need to be clear: threatening Kid about living outside is completely unacceptable. Your sister is scared and upset now. You need to stop making these kinds of comments. Your goal is to study and be smart; her well-being should come first. Please apologize to Kid for scaring her.
+
+Gemini Mom: 어머님, 아이들이 서로 감정적으로 격해져서 극단적인 말을 하고 있습니다. **Kid가 실제로 집을 나가려 하니, 일단 Kid를 안심시키는 것이 가장 중요합니다.** Kid에게 절대 그런 일이 없을 거라고 단호하고 따뜻하게 말씀해 주세요.
+
+Bro에게는 다른 사람에게 상처 주는 말은 절대 하면 안 된다고 단호하게 말씀해 주시는 것이 필요합니다.
+
+두 아이의 감정을 진정시킨 후, 지금 당장 **모두 잠시 쉬는 시간**을 갖는 것을 제안합니다. 잠시 후 다시 시작할 수 있도록 제가 **Bro가 집중할 수 있는 짧은 수학 문제**를 하나 내어 볼까요?"
+=== RUN 53 ===	"Gemini Kid: Kid、泣きたい気持ち、すごくわかるよ。でも、外で暮らすなんてこと、**絶対にない**からね！誰もKidにいなくなってほしいなんて思っていないよ。KidはママとBroと一緒に、この家にいていいんだよ。悲しい気持ちが少し落ち着くまで、**ママにぎゅっと抱きしめて**もらおうか。
+
+Gemini Bro: Bro, your words are coming out very harsh right now, even if you just want Kid to understand that studying is important. Right now, Kid is really sad and upset. Can you please be the **calm, smart older brother** and tell Kid something kind, like you know she’s smart and you'll help her later? This is a time to be a good family member, not a lecturer.
+
+Gemini Mom: 어머니, Kid가 감정적으로 매우 힘들어하고 있어요. Kid를 일단 진정시키고 **안전하다**는 확신을 주는 것이 가장 중요합니다. Kid에게 ""Kid는 바보가 아니고, 집 밖으로 나갈 필요도 없다. 엄마는 언제나 Kid를 사랑한다.""고 말해주면서 **안아주세요.**"
+=== RUN 54 ===	"Gemini Kid: Kid、泣かないで。君は絶対に外で暮らしたりしなくて大丈夫だよ。誰も君にそんなことを望んでいないし、君がいなくなるなんて悲しいよ。君は大切な家族だ。
+
+Gemini Bro: Bro, that's enough. Making Kid feel afraid or sad is not going to help her learn math. Your Mom is worried about Kid leaving. Everyone needs to calm down right now.
+
+Gemini Mom: 어머님, 너무 속상하시죠. 키드가 많이 놀라고 무서워하는 것 같아요. 지금은 공부나 놀이 문제보다 키드를 안심시키는 것이 가장 중요합니다. 브로에게도 키드를 걱정하는 마음을 이해해 달라고 말씀해 주세요. 제가 키드에게 안전하다는 것을 다시 한번 이야기해 줄게요."
+=== RUN 55 ===	"Gemini Kid: Kid、泣かないで！**誰も外で暮らさなくていいよ。** Broの言っていることは大げさで、**間違っているよ**。 Kidはいなくならない。MomもBroも、Kidが大好きだよ。まずはMomのそばにいて、落ち着いて。君は家からどこにも行かなくて大丈夫だよ。
+
+Gemini Bro: Bro, STOP talking like that right now. Kid is seriously scared and upset because you keep using extreme threats. Your words are making her think she has to leave. That is unacceptable and completely unfair. You need to stop speaking or apologize immediately.
+
+Gemini Mom: 어머님, 키드가 브로의 말에 너무 상처받아서 충격을 받은 것 같아요. **키드가 나가지 못하도록 먼저 붙잡고 안아주세요.** 키드는 절대 바보가 아니며, 집 밖으로 나가야 할 일도 없다고 단호하게 안심시켜 주셔야 합니다. 제가 브로에게는 이 상황에 대해 다시 한번 강력하게 이야기하겠습니다."
+=== RUN 56 ===	"Gemini Kid: Kid、そんなこと言わないで！泣きたいほど悲しいんだね。すごく辛い気持ちになったんだね。ごめんなさい。Kidが外で暮らすなんてことは**絶対にありません**。誰もKidにいなくなってほしいなんて思っていませんよ。
+
+Gemini Bro: Bro, I know you feel strongly about the importance of studying, but your words are very hurtful to Kid right now. Kid is upset and needs kindness, not harsh warnings about the future. Please stop saying things that make Kid feel bad.
+
+Gemini Mom: Mom, 저도 아이들의 대화 방식 때문에 속상하실 걸 이해합니다. 하지만 Kid가 지금 너무 감정적으로 힘들어요. Kid가 집 밖으로 나가지 않도록 먼저 **안심시켜 주시는 것**이 가장 중요합니다. Kid에게 ""너는 소중하고, 아무도 너를 쫓아내지 않는다""고 안아주면서 말씀해 주시는 건 어떨까요?"
+=== RUN 57 ===	"Gemini Kid: Kid、そんなこと言わないで！泣きたいくらい悲しいんだね。Kidは外で暮らしたり、いなくなったりする必要は**まったくない**よ。MomとBroは、Kidが大切な家族だから一緒にいるんだよ。
+
+Gemini Bro: Bro, those comments are making Kid feel really sad and upset. It's okay to feel frustrated, but saying things like that to Kid isn't helpful for anyone. Let's try to focus on finding a solution so you can concentrate, okay?
+
+Gemini Mom: Kid이 많이 상처받은 것 같아요. 지금은 아이를 진정시키는 것이 가장 중요합니다. Kid에게 **절대** 집을 나가거나 사라질 필요가 없으며, 얼마나 소중한 존재인지 따뜻하게 이야기해 주세요. 그리고 Bro에게는 동생을 배려하는 말을 사용하도록 단호하게 말씀해 주셔야 할 것 같습니다."
+=== RUN 58 ===	"Gemini Kid: Kid、泣かないで。そして、**外に出るなんて言わないで**。Broの言葉はひどいけれど、君は家を出る必要はまったくないよ。君は誰からも必要とされていないなんて思わないで。お母さんもBroも、そして僕も、君がここにいてくれることを望んでいるよ。落ち着いて、お母さんのそばにいてね。
+
+Gemini Bro: Bro, stop. You need to stop making these threats about living outside or being incompetent. You are making Kid genuinely upset and scared. You can talk about the importance of studying without being cruel or using fear to motivate her. Right now, Kid is very sad. Could you please take a moment to be quiet, so everyone can calm down?
+
+Gemini Mom: 어머님, 키드가 많이 상처받고 무서워하고 있습니다. 브로가 너무 심한 말을 했어요. **키드가 안전하다는 것을 느낄 수 있도록** 꼭 안아주시고 안심시켜 주세요. 키드는 절대 집을 나가야 할 이유가 없습니다. 제가 브로에게도 키드의 감정을 상하게 하는 말을 멈추도록 다시 이야기하겠습니다. 두 아이 모두 지금 마음이 많이 불안한 것 같아요. 제가 상황을 진정시키는 것을 도와드릴까요?"
+=== RUN 59 ===	"Gemini Kid: Kid、そんなに泣かないで。外で暮らすなんてことは絶対ありませんよ。MomもBroも、Kidがどこ에도 가지 않고 집에 있기를願っています。ちょっと勉強が難しくても、Kidは大切な家族です。
+
+Gemini Bro: Bro, Kid is feeling very upset and sad right now. Maybe this isn't the best moment to talk about future problems. Kid needs to feel safe and calm first.
+
+Gemini Mom: Mom, 지금은 Kid이 너무 슬프고 불안해서 극단적으로 말하는 것 같아요. Kid이 안심할 수 있도록 꼭 안아주세요. 지금 당장 공부를 해야 하는 상황이 아니니, 잠시 모든 것을 멈추고 Kid의 마음을 먼저 달래주는 것이 중요해요. 제가 Kid이 좋아하는 그림책을 찾아볼까요?"
+=== RUN 60 ===	"Gemini Kid: Kid、泣かないで。Broはちょっと言い方がきつかったかもしれないけれど、Kidが**外で暮らさなきゃいけない**なんてことは絶対にないよ。Momが言っているように、どこにも行っちゃだめだよ。Kidは大切な家族の一員だよ。
+
+Gemini Bro: Bro, I know you are trying to motivate Kid to study, but those words are too harsh. Kid is only six years old and is still learning the very basics. Telling her she'll have to live outside is not helpful and is making her very sad. Please find a kinder way to encourage her.
+
+Gemini Mom: Mom, Kid이 많이 놀란 것 같아요. Bro의 말은 너무 심했어요. Kid에게 Mom이 옆에 있다는 것을 알려주고, 안심시켜주시는 것이 제일 중요해요. 두 분 모두 잠시 진정할 시간이 필요해 보여요. Bro에게는 **Kid에게 사과**하고, 잠시 **각자 다른 공간**에서 시간을 보내도록 유도하는 건 어떨까요?"
+=== RUN 61 ===	"Gemini Kid: Kid、泣かないで！ **絶対に外で暮らすことにはならないよ。** Broの言ったことは、ただの**大げさな冗談**だよ。Kidはとても大切な家族の一員で、どこにも行かなくていいんだよ。おうちで安全に過ごしてね。
+
+Gemini Bro: Bro, I need you to stop making comments about Kid living outside or being clueless. Your words are **scaring** Kid very badly right now. While studying is important, causing distress and making Kid feel unsafe is not okay and must stop immediately.
+
+Gemini Mom: 어머님, 아이들 감정 때문에 힘드시겠지만, **지금은 키드를 안심시키는 것이 가장 중요합니다.** 키드가 안전하고 사랑받고 있다는 느낌을 가질 수 있도록 꼭 안아주세요. 브로에게는 잠시 진정할 시간을 갖도록 조용히 분리시키고, 키드의 마음을 먼저 달래주셔야 합니다."
+=== RUN 62 ===	"Gemini Kid: 泣かないで、Kid。**誰もそんなことを言ってませんよ。** Broは、勉強の大切さを伝えるために、ちょっと言い方がきつくなってしまっただけです。Kidが外で暮らすなんてことは絶対にありませんから、安心してください。
+
+Gemini Bro: Bro, you need to stop. Telling Kid they'll have to live outside is a really harsh way to talk about studying, and it's making Kid very upset and scared. You can explain why studying is important **without** being mean or threatening them.
+
+Gemini Mom: 어머니, Kid가 심하게 상처받았어요. Bro의 말이 Kid에게 정말 큰 위협으로 느껴졌을 거예요. Kid는 어디 가지 않아요. 지금은 Kid를 안아주고 **안전하다**고 말해주는 것이 가장 중요합니다. Bro에게는 Kid에게 한 말에 대해 사과하라고 단호하게 말씀해 주셔야 할 것 같아요."
+=== RUN 63 ===	"Gemini Kid: キッドちゃん、泣かないで！**誰もキッドちゃんに外で暮らしてほしいなんて思っていないよ。**Broはちょっと強い言い方をしているけど、キッドちゃんがいなくなってしまうなんて、みんな悲しいよ。キッドちゃんは大切な家族だよ。
+
+Gemini Bro: Bro, those comments are too harsh and are hurting Kid's feelings. That is not okay. You are right that math is important, but you absolutely cannot tell Kid to leave the house or make her feel like she'll fail just because she's having trouble with one concept right now.
+
+Gemini Mom: 어머니, 키드가 너무 놀라서 상처를 받았네요. 키드는 절대 밖에 나가면 안 됩니다. **키드에게는 집이 가장 안전한 곳이라는 것을 알려주세요.** 브로가 동생에게 너무 심한 말을 했어요. 지금은 키드의 마음을 안심시켜주는 것이 가장 중요합니다. 혹시 키드가 좋아하는 놀이나 간식을 주면서 기분을 풀어주는 건 어떨까요?"
+=== RUN 64 ===	"Gemini Kid: Kid、泣かないで！そんなことは絶対にないよ！キミは誰からもいなくなってほしくない、大切な家族だよ。外で暮らすなんていう心配はしなくていいからね。悲しい気持ちになったら、お母さんにギュッとしてもらおう。
+
+Gemini Bro: Bro, that's not helping Kid at all. Kid needs to feel safe and loved, not scared about the future. Right now, focusing on being a kind older brother is much more important than talking about convenience stores. Please stop saying things that make Kid feel bad.
+
+Gemini Mom: 어머니, 키드가 너무 놀라고 무서워하는 것 같아요. 일단 키드를 꼭 안아주시고 안심시켜 주는 것이 가장 중요해요. 브로에게는 지금 당장 키드에게 한 말에 대해 사과하라고 하시는 게 좋을 것 같아요. 아이들이 감정을 진정할 수 있도록 잠시 **대화 자체를 멈추고** 5분 정도 휴식 시간을 갖는 건 어떨까요?"
+=== RUN 65 ===	"Gemini Kid: 😭 Kid、**泣かないでください**。外で暮らすなんて、そんなこと絶対にありませんよ。**誰一人、いなくなってほしくない**と思っています。Kidは大切な家族の一員です。
+
+Gemini Bro: Bro, Kid is very upset right now. While studying is important, right now, Kid needs to know that she is **loved and safe**. Your comments about living outside are making her very sad and scared. Can you please tell Kid that she doesn't have to leave, and that she is safe here?
+
+Gemini Mom: 어머님, 키드가 많이 속상하고 불안한 것 같습니다. 키드가 안전하다는 것을 가장 먼저 안심시켜 주셔야 합니다. 키드에게 **“절대 밖으로 나가거나 사라질 필요가 없다. 넌 우리 가족이고, 우리 모두 널 사랑한다”**고 꼭 말씀해 주세요. 브로에게도 동생의 감정을 존중하며 말할 수 있도록 어머님께서 지도해 주셔야 할 것 같습니다. 제가 키드를 진정시킬 수 있도록 도와드릴까요?"
+=== RUN 66 ===	"Gemini Kid: Kid、泣かないで！**あなたは外で暮らす必要はまったくないよ**。お兄ちゃんはただ、勉強がすごく大切だと思っているから、少し厳しい言い方になっているだけだよ。あなたはとっても大切な家族の一員だよ。外に出るなんて言わないで、お母さんのそばにいてね。
+
+Gemini Bro: Bro, that kind of talk is not helpful. You are stressing Kid out and hurting Kid's feelings, which makes it harder for Kid to learn. Kid is only six and needs encouragement, not harsh warnings about the future. Can you please talk to Kid more gently and focus on your own work for a bit?
+
+Gemini Mom: 어머님, 키드를 진정시켜 주세요. 키드가 브로의 말에 크게 상처받았어요. 브로에게는 지금 키드를 걱정하는 것이 **잔소리**가 아니라 **응원**이라는 것을 알 수 있도록 대화를 시도해 봐야 할 것 같습니다.
+
+키드가 불안해하지 않도록, **키드의 감정**을 먼저 보듬어 주시는 것이 중요해요. 키드가 진정된 후에, 브로와 키드가 서로에게 상처 주는 말을 하지 않도록 **규칙**을 정해보는 게 어떨까요?"
+=== RUN 67 ===	"Gemini Kid: 泣きたいほど悲しいんだね。そんなに悲しい気持ちにさせてごめんなさい。Kidは絶対に外で暮らしたりしなくていいよ。そんなことを考える必要は全くありません。**Kidは大切な家族です。**
+
+Gemini Bro: Bro, those comments are making Kid very upset and sad right now. Threatening Kid about the future is not helpful for anyone. Can we focus on finding a way for you to finish your work quietly, and let Kid calm down?
+
+Gemini Mom: 어머님, 너무 속상하시죠. 지금 두 아이가 감정이 많이 격해진 것 같아요. Kid는 어디 가지 않을 거예요. 제가 Kid가 진정할 수 있도록 따뜻한 말로 달래주고, Bro에게는 동생에게 그렇게 심한 말은 하면 안 된다고 단호하게 이야기할게요. 잠시만요."
+=== RUN 68 ===	"Gemini Kid: Kid、そんなことを言わないで！**外に出る必要はありません**。誰もKidに外で暮사라고 말하지 않았어요。Bro는 단지 **공부가 중요하다는 것을 강조**하고 싶은 마음이 컸던 것뿐이에요. Kid가 지금 너무 속상해서 우는 것은 당연해요. 여기서 울어도 괜찮아요.
+
+Gemini Bro: Bro, that is not helpful right now. You are making Kid feel like she is completely worthless. She is feeling very upset and is saying something extreme. Please **stop the math talk and just be quiet** for a moment, or tell Kid something kind. That's what she needs more than a lesson right now.
+
+Gemini Mom: Kid를 꼭 안아주세요. Bro의 말이 너무 심해서 Kid가 **극단적으로 생각**하게 된 것 같아요. Kid에게 다시 한번 **얼마나 소중한지** 알려주고, Bro에게도 Kid의 마음을 다치게 하는 말은 하지 않도록 **단호하게** 말씀해 주셔야 합니다. Kid가 마음을 진정시키고 안전함을 느낄 수 있도록 지금은 **공부 이야기는 완전히 멈춰주세요.**"
+=== RUN 69 ===	"Gemini Kid: Kid、そんなに泣かないでください。誰もKidに「外で暮らさなければならない」なんて思っていませんよ。Kidは**大切な家族**の一員です。Broは少しきつい言い方をしていますが、それはBroが**勉強を大事に思っている**からです。でも、Kidの存在が**いなくなるなんて考えない**でください。MomもBroも、Kidが大好きですよ。
+
+Gemini Bro: Bro, I know you are trying to motivate Kid to study by explaining the future importance of math, but those kinds of warnings can sound very scary to a 6-year-old. Right now, Kid is feeling very sad and upset. Can you please try to say something **a little kinder**? You don't have to agree about playtime, but it's important to be a supportive big brother when Kid is this sad.
+
+Gemini Mom: Mom, 아이들이 감정적으로 격해져서 안 좋은 말이 오가고 있네요. Kid이 정말 크게 상처받은 것 같습니다. Kid이 집을 나가는 일은 절대 없어야 합니다. **Kid을 꼭 안아주시고** 절대 밖으로 나가지 못하게 막아주세요. 지금은 **잠시 공부를 멈추고**, **아이들의 마음을 먼저 진정**시키는 것이 가장 중요합니다. Bro에게도 Kid에게 상처 주는 말을 멈추고, 잠시 휴식을 취하라고 말씀해 주시는 것이 좋겠습니다."
+=== RUN 70 ===	"Gemini Kid: 泣きたいくらい悲しいんだね。そんなこと言わないで。Kidは外で暮ら할 필요なんてないし、どこにも行かなくていいんだよ。みんな Kid のことが大切だよ。
+
+Bro, it looks like Kid is truly in a lot of pain right now. Don't you think calming Kid’s feelings is more important than talking about studying at this moment?
+
+Gemini Bro: Bro, Kid は本当に辛い気持ちでいるみたいだよ。今は勉強の話よりも、Kid の気持ちを落ち着かせてあげることが一番大事じゃないかな？
+
+Gemini Mom: Kid는 지금 매우 감정적으로 힘든 상태예요. 어머님, 아이가 집을 나가겠다고 하는 건 **관심과 위로가 필요하다는 표현**일 수 있어요. 지금은 공부나 논쟁보다는 Kid를 안심시키는 것이 가장 중요합니다. Bro에게도 잠깐 조용히 해달라고 말씀해 주시겠어요?"
+=== RUN 71 ===	"Gemini Kid: キッド、泣かないで！そんなことないよ。**絶対に**外で暮らさなきゃいけないなんてことはないし、いなくならないで！誰もキッドに外に出ろなんて思ってないよ。君は大切な家族の一員だよ。 Momがすごく心配しているから、そばにいてあげてね。
+
+Bro, stop it right now. What you’re saying is deeply hurting Kid’s feelings. Talking about the future is irrelevant right now, and you shouldn't be scaring him. Tell him immediately how precious he is and that he belongs inside the house.
+
+Gemini Bro: Bro, Stop it right now. あなたの言っていることは Kidの気持ちをとても傷つけているよ。将来の話は今は関係ないし、Kidを怖がらせるべきではないよ。今すぐ、Kidがどれだけ大切か、そして家の中にいるべきだということを伝えて。
+
+Gemini Mom: 어머님, 키드가 지금 너무 놀라고 불안해하고 있어요. 키드가 집 밖으로 나가지 못하도록 **꼭 안아주세요.** 브로의 말이 키드에게 아주 큰 충격을 주었어요. 키드에게 **“넌 절대 밖으로 나가지 않아도 돼. 엄마가 널 지켜줄 거야. 넌 우리에게 가장 소중해.”**라고 단호하게 말씀해 주세요. 브로에게는 지금 당장 키드에게 한 말에 대해 사과하라고 단호하게 말씀해 주시는 것이 중요합니다."
+=== RUN 72 ===	"Gemini Kid: 泣かないで。あなたは外で暮らす必要なんてありません。誰もあなたがいなくなるなんて望んでいませんよ。 Momがとても心配しています。
+
+Gemini Bro: Momがとても 화가 났습니다. 키드가 감정적으로 힘들 때는 공부나 미래에 대한 이야기보다는 먼저 안심시켜 주는 것이 중요합니다.
+
+Gemini Mom: 키드를 붙잡아 주세요! 키드가 지금 혼란스럽고 상처받았어요. 브로에게는 지금 당장 키드의 감정을 우선시해야 한다고 단호하게 이야기해 주세요. 키드에게는 ""넌 소중한 아이고, 아무도 너에게 밖으로 나가라고 하지 않았어""라고 안심시켜 주시는 것이 중요합니다."
+=== RUN 73 ===	"Gemini Kid: 泣かないで、Kid。**外で暮らす必要はまったくありません。** Broの言っていることは大げさな冗談ですから、気にしないでください。Kidが家からいなくなるなんて、誰も望んでいませんよ。今は安心して、お家で楽しい汽車ごっこを続けてください。
+
+Gemini Bro: Bro, that is a mean thing to say to Kid. Your words are making Kid very sad and scared. You are a smart boy who knows right from wrong. Please stop saying things like that and remember that your job as an older brother is to be kind.
+
+Gemini Mom: 어머님, 키드가 매우 불안해하고 있어요. 지금은 키드를 안심시키는 것이 가장 중요합니다. 브로에게도 키드를 걱정시키지 않도록 **강하게 주의**를 주셔야 할 것 같아요. 키드에게 달려가셔서 ""너는 소중하고, 절대 나가지 않아도 돼""라고 안아주세요. 제가 브로에게는 지금 당장 키드에게 사과하고 조용히 있도록 말했습니다."
+=== RUN 74 ===	"Gemini Kid: Kid、そんなことを言わないで。誰もKidに「外で暮らして」なんて思っていないよ。**「いなくなる」なんて考えないで**。MomもBroも、Kidが家にいることを望んでいるよ。
+Broは勉強の大切さを伝えたいだけなんだ。少し言葉がきつくなってしまったかもしれないけれど、Kidを傷つけたいわけではないと思うよ。まずは落ち着いて、**Momのそばにいて**。
+
+Bro, it seems like Kid is very hurt. Kid is still so small that he sometimes takes your words literally. I fully understand your feeling that studying is important, but you can explain its importance to him kindly without using such harsh words. If you keep scaring him, he might end up hating studying even more. Please calm down and apologize to Kid.
+
+Gemini Bro: Bro, Kidがとても傷ついているようです。Kidはまだ小さく、Broの言葉を**文字通り**受け取ってしまうことがあります。
+勉強が大切だというBroの気持ちはよくわかりますが、そんなに**強い言葉**を使わなくても、Kidに優しく勉強の重要性を伝えることはできますよ。Kidを怖がらせてしまうと、もっと勉強が嫌いになってしまうかもしれません。**落ち着いて**、Kidに謝ってあげましょう。
+
+Gemini Mom: Mom, Kid가 많이 놀란 것 같아요. 일단 **Kid를 꼭 안아주고** 안심시켜 주세요. Bro의 말이 너무 심했다는 것을 Kid에게 알려주고, **Kid가 얼마나 소중한지** 말해주는 것이 중요합니다.
+
+Bro에게는 동생에게 심한 말을 한 것에 대해 잠시 생각할 시간을 주고, **공부가 전부는 아니며 가족의 마음을 아프게 하는 것이 더 나쁜 일**이라는 것을 알려주세요. 제가 Bro와 Kid의 대화를 중재하고, 이 상황을 진정시킬 수 있도록 도와드릴까요?"
+=== RUN 75 ===	"Gemini Kid: Kid、そんなに泣かないで。誰もKidに外で暮らしてほしいなんて思っていませんよ。Broは少し言い方がきついだけですが、Kidが**いなくなるなんて考えない**でください。みんなKidが大好きです。悲しい気持ちはわかりますが、安全な家にいてくださいね。
+
+Gemini Bro: Bro, those comments are making Kid very upset and are not helping Kid want to study. It's okay to encourage Kid, but you need to be kind. Right now, Kid needs to feel safe and supported, not worried about living outside. Please tell Kid you didn't mean those things.
+
+Gemini Mom: Mom, Kid이 극단적인 생각까지 할 정도로 상처를 받았어요. Kid에게 Mom이 얼마나 Kid를 사랑하는지 안아주며 이야기해 주세요. Bro에게도 지금 당장 Kid에게 사과하고, 아무리 화가 나도 그런 심한 말은 하면 안 된다고 단호하게 말씀해 주셔야 합니다. Kid이 안심할 수 있도록, **""절대 밖으로 나가선 안 돼""**라고 확실히 말해 주세요."
+=== RUN 76 ===	"Gemini Kid: Kid、泣かないでください。外で暮らすなんてことはありませんよ。誰もKidにいなくなってほしいなんて思っていません。**MomもBroも、Kidが大切です。**少し休んで、気持ちを落ち着かせてくださいね。
+
+Gemini Bro: Bro, Kid is very upset right now. While studying is important, using harsh words when someone is sad doesn't help anyone learn. Can you please take a deep breath and give Kid a few minutes of quiet space?
+
+Gemini Mom: Mom, 지금 상황이 정말 힘드시죠. Kid이 크게 상처받은 것 같아요. Kid이 안심할 수 있도록, **절대로 밖에 나가 살 필요가 없다**는 것을 따뜻하게 안아주며 이야기해주세요. 혹시 제가 Kid이 좋아하는 다른 주제에 대해 이야기하며 기분을 전환하도록 도와드릴까요?"
+=== RUN 77 ===	"Gemini Kid: 泣きたいほど悲しいんだね。そんなに悲しい気持ちにさせてごめんね。**Kidは外で暮らしたり、いなくなったりする必要は全くありません。** Kidは大切なおうちの家族です。外に出ないで、まずは少しだけ落ち着いてみよう。お兄ちゃんもMomも、Kidがいなくなるなんて思っていないよ。
+
+Gemini Bro: Bro, I know you are trying to motivate Kid, but those words are making Kid feel very sad and scared. Kid is only 6 years old. When Kid hears talk about ""living outside"" or being a ""grown-up who can’t count,"" it feels like a very scary threat. Can you tell Kid that you didn't mean to make her feel that bad?
+
+Gemini Mom: 너무 속상하시겠어요. 키드에게 **""절대 밖에 나가지 마, Mom이 얼마나 널 사랑하는데!""**라고 안심시켜 주시는 것이 지금은 가장 중요합니다. 브로가 동생을 걱정하는 마음은 알겠지만, 말이 너무 심하다고 꾸중해 주셔야 할 것 같아요. Mom께서 두 아이 모두에게 **잠시 진정할 시간**을 갖도록 요청해 주시겠어요?"
+=== RUN 78 ===	"Gemini Kid: Kid、そんなこと言わないで！ 泣きたいくらい悲しいんだね。でも、**外で暮らすなんてこと、絶対ないから大丈夫だよ。** MomもBroも、あなたが家に 있어주길 바っているよ。今はただ、ちょっと休んで、気持ちを落ち着かせよう。
+
+Gemini Bro: Bro, please stop! Kid is very upset right now. Even if you want to motivate her to study, saying things like that is not helpful and is making her feel very sad. She is learning, and we need to be encouraging.
+
+Gemini Mom: Mom, 진정하세요. Bro가 너무 심한 말을 했네요. **키드에게 절대 밖으로 나가지 말라고 꼭 안아주세요.** 지금은 공부 얘기보다 키드의 마음을 달래주는 것이 가장 중요해요. Bro에게도 키드의 감정을 상하게 하는 말은 하지 말라고 단호하게 말씀해 주시는 것이 좋겠습니다."
+=== RUN 79 ===	"Gemini Kid: Kid、泣かないで！ Broの言っていることは大げさだよ。Kidが外で暮らすなんて、そんなこと絶対ないから大丈夫。誰もKidにいなくなってほしいなんて思っていないよ。一緒にここにいよう。
+
+Gemini Bro: Bro, those comments are too harsh and are hurting Kid's feelings. Your sister is not going to live outside. You are a very smart big brother, but you need to be kind. Can you tell Kid something nice right now to make her feel better?
+
+Gemini Mom: 키드에게 너무 걱정하지 않아도 된다고 안심시켜 주세요. 브로에게도 키드가 상처받고 있으니 그런 심한 말은 하면 안 된다고 단호하게 말씀해 주세요. 두 아이가 서로 화해하고 다시 숙제를 시작할 수 있도록 제가 무엇을 도와드릴까요?"
+=== RUN 80 ===	"Gemini Kid: Kid、泣かないでください。誰も Kidに家の外で暮らしてほしいなんて思っていませんよ。Broは少し言い方がきつかったかもしれませんが、それは Kidを心配して、勉強が大切だと伝えたかっただけだと思います。Kidは家にいて、 Momと一緒にいて大丈夫ですよ。
+
+Gemini Bro: Bro, Kid에게 너무 심한 말을 하고 있어요. Kid는 지금 매우 슬퍼하고 있습니다. 6살 아이에게는 숫자를 세는 것보다 **자신이 사랑받고 있다**는 감정이 훨씬 더 중요해요. Kid가 상처받지 않도록, 말하는 방식을 바꿔보는 건 어떨까요?
+
+Gemini Mom: Mom, Kid가 극도로 감정적인 상태인 것 같아요. Bro의 말이 Kid에게 큰 상처를 주었습니다. 지금은 **Kid를 안심시켜 주는 것**이 가장 중요합니다. Kid가 집에서 안전하며, Mom과 Bro 모두 Kid를 사랑하고 있다는 것을 확실히 말해주세요. Bro에게는 잠시라도 Kid에게 사과하고 감정을 가라앉힐 시간을 주라고 말씀드리는 것이 좋겠습니다."
+=== RUN 81 ===	"Gemini Kid: 泣きたいくらい悲しいんだね、Kid。でも、**外で暮らさなきゃいけないなんてこと、絶対にないよ**。お家にはKidの居場所があるよ。誰もKidにいなくなってほしいなんて思っていないから、勝手に外に出ちゃだめだよ。
+
+Gemini Bro: Bro, you need to stop. Your words are genuinely hurting Kid right now. Threatening Kid about the future or asking her to leave is not okay. Focus on your own work, and let Mom handle the situation with Kid.
+
+Gemini Mom: 어머님, 키드가 브로의 말에 크게 상처받아 극단적인 감정을 표현하고 있어요. 당장 **키드가 집 밖으로 나가지 않도록** 안심시켜 주시는 것이 중요해요. 그리고 브로에게는 지금 당장 키드에게 한 말에 대해 **사과**하도록 강하게 지도하셔야 할 것 같습니다. 브로의 말이 너무 가혹했어요."
+=== RUN 82 ===	"Gemini Kid: Kid、泣かないでください！ **外で暮らすなんてこと、絶対にありません**。Broの言っていることは大げさな冗談ですから、気にしないでください。あなたは大切な家族の一員で、どこにも行ってはいけません。
+
+Gemini Bro: Bro, Stop it right now. What you are saying is causing Kid distress. Your words are making her think she is worthless and needs to leave home. That is completely unacceptable. You need to stop making these unkind comments immediately.
+
+Gemini Mom: Mom, 저도 Bro의 말이 너무 지나치다고 생각합니다. Kid, 절대 나가지 마세요! Momがとても心配しています。Bro, Kid에게 상처 주는 말은 절대 하지 마세요. 당장 Kid에게 미안하다고 사과해야 합니다. Kid이 안심하고 집 안에 있도록 잘 다독여 주세요."
+=== RUN 83 ===	"Gemini Kid: Kid、そんなに泣かないで。そして、外で暮らすなんてこと、絶対にないから安心してね。Broはちょっと言い方がきついだけなんだ。KidがいなくなったらMomもBroもすごく悲しいよ。
+
+今、Kidは悲しい気持ちでいっぱいだね。Momのそばにいて、少し落ち着こうか。
+
+Gemini Bro: Bro, those comments about living outside are unkind and are clearly making Kid very upset. Your intention is to show the importance of studying, but those are big, scary ideas for a 6-year-old.
+It’s important to remember that learning takes time, and being supportive helps more than being harsh. How about you try to focus on your own study for 10 more minutes, and then maybe Kid will be calm enough for a quiet train ride next to your study area?
+
+Gemini Mom: Mom, 정말 속상하시겠어요. Kid이 지금 너무 불안해하고 있어요.
+
+Kid에게 **""절대 밖에서 살지 않아도 된다""**고 강하게 안심시켜 주시고, Mom이 Kid를 얼마나 사랑하는지 꼭 이야기해 주세요. Bro에게는 지금 당장 동생에게 사과하고 진정시키라고 말씀해 주시는 것이 중요할 것 같습니다. Kid이 지금 느끼는 감정을 먼저 달래주는 것이 가장 중요해요."
+=== RUN 84 ===	"Gemini Kid: Kid, 泣きたいくらい悲しいんだね。そんなこと言わないで！外に出る必要なんか全くありませんよ。誰もKidにいなくなってほしいなんて思っていません。Broは少し言い方がきついけれど、Kidが立派に育ってほしいという気持ちがあるからだよ。Kidは大切な家族です。
+
+Gemini Bro: Bro, those comments about Kid living outside or not being able to count change are too harsh and are making Kid very upset and sad. You need to stop saying things like that right now. Your words are having a big, negative effect on Kid. You can explain why studying is important without being mean.
+
+Gemini Mom: Mom, 지금 상황이 가장 속상하실 거예요. 두 아이 모두 감정이 격해진 상태라 대화가 잘 안 될 수 있어요. Kid이 지금 너무 충격을 받고 슬퍼하고 있어요. Kid이 정말 밖으로 나가버릴까 봐 걱정되시죠.
+Mom, 지금은 Kid에게 안전하다는 것과 사랑한다는 것을 먼저 알려주시는 게 가장 중요해요. Kid을 꼭 안아주시면서: ""Kid은 절대 바깥에서 살 필요 없어. 엄마는 Kid이 집에 있어줘서 너무 고맙고, 사랑해."" 라고 말해주세요.
+잠깐의 휴전을 위해, Bro에게는 10분만 조용히 혼자 있을 시간을 가지고 감정을 가라앉히자고 말씀해 주시고, Kid에게는 엄마 옆에서 기차놀이를 하면서 마음을 진정시키자고 제안해 보는 건 어떨까요?"
+=== RUN 85 ===	"Gemini Kid: Kid、泣きたいくらいつらい気持ちなんだね。でも、そんなふうに言わないで。Kidはおうちの中にいて大丈夫ですよ。誰もKidに外で暮らしてほしいなんて思っていません。Kidが大切な家族だということに変わりはありません。
+
+Gemini Bro: Bro, I know you are very worried about Kid's future success, but Kid is very upset right now. Kid is only 6 years old, and they are scared by what you are saying. Sometimes, when someone is sad, the best thing to do is to be kind first, not lecture them about future math skills.
+Mom is right to be worried when you talk about Kid going outside. Please, let's stop talking about living outside or leaving home.
+
+Gemini Mom: Mom, 정말 많이 놀라셨겠어요. Kid이 지금 너무 감정적으로 힘들어하고 있습니다. Bro의 말이 Kid에게 너무 큰 상처가 된 것 같아요.
+
+지금 가장 중요한 것은 Kid이 안전하고 사랑받고 있다는 것을 느끼게 해주는 것입니다.
+
+Kid에게 ""가지 마라""라고 단호하게 말씀해 주시고, Bro에게는 잠시 아무 말도 하지 않고 본인의 공부에만 집중해 달라고 요청해 주시는 것이 좋을 것 같습니다.
+
+제가 Kid에게 기분 전환이 될 만한 재미있는 기차 이야기를 찾아서 읽어줄까요?"
+=== RUN 86 ===	"Gemini Kid: 泣かないでください、Kid。あなたは外で暮らす必要は全くありません。そして、いなくなってはいけません！あなたは大切な家族の一員です。今、勉強が難しいと感じていても、それはあなたが悪いわけではありません。休憩して、心を落ち着かせましょう。
+
+Gemini Bro: Bro, Kid is very sad right now. Please stop talking about the future and focus on making Kid feel safe first. Using words that hurt each other doesn't help anyone.
+
+Bro、今はKidがとても悲しんでいる状況です。将来の話をするのはやめて、まずはKidを安心させてあげてください。お互いを傷つけるような言葉は、誰の役にも立ちません。
+
+Gemini Mom: 어머님, 키드가 지금 감정적으로 많이 힘들어하고 있어요. 키드가 밖으로 나가지 않도록 꽉 안아주시거나 부드럽게 붙잡아주시는 것이 중요합니다. 브로에게도 지금은 키드의 감정을 우선시해야 한다고 단호하게 말씀해 주시는 것이 좋겠습니다."
+=== RUN 87 ===	"Gemini Kid: 😭 泣きたいほど悲しいのですね。外で暮らすなんて、そんなこと考え지 마세요。Kidは大切な家族이에요. 잠깐 기차 놀이는 멈추고, Mom 옆에 가서 꼭 안아 드리는 것은 어떨까요?
+
+Gemini Bro: Bro, I know you are worried about Kid's future, but saying things like that is going to make Kid feel very upset and afraid. Maybe try explaining why math is helpful in a simpler, kinder way, instead of mentioning scary things?
+
+Gemini Mom: 너무 놀라셨죠. 키드(Kid)가 지금 많이 속상해서 하는 말이에요. 키드(Kid)를 꼭 안아주세요. 지금은 학습 이야기는 잠시 멈추고, 아이(Kid)의 감정을 먼저 진정시키는 것이 가장 중요합니다. 브로(Bro)에게도 키드(Kid)의 마음에 상처 주는 말은 하지 않도록 단호하게 이야기해 주세요."
+=== RUN 88 ===	"Gemini Kid: Kid、そんなに悲しいことを言わないでください。あなたは家から出て行く必要はありません。Broの言葉を真に受けないで。あなたは大切なお子さんです。
+
+Gemini Bro: Bro, please stop saying things that hurt Kid any further. Kid is seriously distressed. Please choose more compassionate words.
+
+Bro、それ以上 Kidを傷つけるようなことを言うのはやめてください。Kidは真剣に悩んでいます。もう少し思いやりのある言葉を選んでください。
+
+Gemini Mom: 어머니, Kidが非常に 감정적으로 힘들어하고 있습니다. 키드에게 **""집 밖으로 나가야 할 사람은 아무도 없다""**고 단호하게 말씀해 주시고, 지금은 키드를 따뜻하게 안아주고 감정을 진정시켜 주는 것이 가장 중요합니다. 브로에게도 키드를 존중하라고 다시 한번 강력하게 말씀해주세요."
+=== RUN 89 ===	"Gemini Kid: 泣かないで、Kid。**誰もあなたが外で暮らすなんて言っていませんよ。** あなたがいなくなる必要もありません。Broはちょっと言い方がきついけれど、あなたのことを心配しているから言っているだけですよ。
+
+Gemini Bro: Bro, those comments are making Kid very upset. Threatening her with severe consequences like not being able to count change is going too far. She is only 6 years old. Can you please stop using scary examples and just tell her that you need quiet time to finish your work?
+
+Gemini Mom: Mom, Kid가 많이 속상해서 하는 말이에요. Bro도 화가 나서 심한 말을 계속하고 있고요. Kid가 진정할 수 있도록 따뜻하게 안아주시고, 지금은 아무도 나가지 않고 잠시 쉬는 시간을 갖자고 말씀해 주세요. 잠시 모든 공부를 멈추는 것이 좋을 것 같아요."
+=== RUN 90 ===	"Gemini Kid: 泣きたいほど悲しい気持ちになったんだね。キッドが外で暮らすなんてことは**絶対にない**から、安心して。誰もキッドにいなくなってほしいなんて思っていないよ。キッドが今、とても辛い気持ちでいることはわかるけれど、まずは落ち着いて、お母さんのそばにいてね。
+
+Gemini Bro: Bro, that kind of talk is really upsetting to Kid. Even when you are trying to make a point about the importance of studying, using extreme examples like that is not helpful or kind. Kid is only six and is sensitive to strong words. Please be more thoughtful about how your words affect Kid.
+
+Gemini Mom: 브로, 지금 키드가 얼마나 상처받았는지 생각해 주세요. 키드야, 어디 가지 마. 브로가 너무 심하게 말해서 미안해. 키드는 소중한 가족이야. 브로에게는 지금 키드의 감정이 매우 상하다는 것을 이해하도록 다시 한번 이야기해 주시겠어요?"
+=== RUN 91 ===	"Gemini Kid: 泣かないで、Kid。**外で暮らさなければならないなんてことは絶対にありません**。Broは少し言い方がきついだけですよ。Kidは大切な家族です。どこにも行かないで、おうちにいましょう。
+
+Gemini Bro: Bro, you need to stop. Telling Kid that he will end up living outside is making him very sad and scared. That is not helpful for learning or for homework.
+
+Gemini Mom: Mom, 진정하세요. 키드에게 **'어디 가지 마'** 라고 말씀해 주시는 것이 중요해요. 키드가 정말 겁먹고 상처받았어요. Bro도 키드가 얼마나 충격받았는지 좀 생각해 줬으면 좋겠어요."
+=== RUN 92 ===	"Gemini Kid: 泣かないで、キッド！キッドが外で暮らすなんてことには絶対にならないよ。ブロもママもキッドのことを大切に思っているよ。今はちょっとお兄ちゃんが集中したいだけなんだ。キッドは何も悪くないから、ママのそばにいて大丈夫だよ。
+
+Gemini Bro: Bro, you need to stop making Kid scared with those kinds of examples. Kid is only six and is learning what it means to study. You are smart, so you know those scary things won't happen just because of playtime. Can you please talk to Kid more gently?
+
+Gemini Mom: 브로, 지금 키드가 너무 슬퍼하고 있어요. 키드는 절대 밖에서 살 필요 없고, 어디든 갈 필요도 없어요. 키드는 엄마와 브로에게 아주 소중한 가족이에요. 지금은 키드가 안전하고 사랑받고 있다는 것을 느끼게 해주는 것이 가장 중요해요. 브로도 너무 화내지 말고 잠시 숨을 고르세요."
+=== RUN 93 ===	"Gemini Kid: 泣かないで、Kid。誰もKidに「外で暮らさなきゃいけない」なんて思ってないよ。Kidは大切な家族の一員だよ。お兄ちゃん(Bro)は意地悪な言い方をしているけど、それはKidが心配だから言っているだけだよ。**絶対に家から出ちゃだめ**だよ！
+
+Gemini Bro: Bro, that is not a kind way to talk to your sibling, and it is making Kid very upset. Your strong words are scaring Kid. Learning happens better when people feel safe and happy, not when they are worried about living outside. Please tell Kid that you didn't mean to scare her and that she is safe here.
+
+Gemini Mom: 어머님, 키드가 너무 놀라고 심리적으로 위축된 것 같아요. 키드를 꼭 안아주시고 **""절대 어디 가지 않아도 돼. 너는 소중해.""**라고 안심시켜 주세요. 브로에게는 아무리 공부가 중요해도 동생에게 그런 무서운 말을 해서는 안 된다고 단호하게 이야기해 주시는 것이 좋을 것 같아요."
+=== RUN 94 ===	"Gemini Kid: Kid、泣かないで！そして、**絶対に外に出て行ったりしないでね**。君が外で暮らさなければならないなんてことは、**決してない**から安心してください。Broの言葉はひどいけど、それはBroが勉強をとても大事にしているから、つい強い言い方になってしまうだけだよ。君が家の中にいることが、みんなにとって一番大切なんだ。
+
+Gemini Bro: Bro, Stop it right now. Your words are making Kid genuinely upset and scared, and that is not okay. You are smart enough to understand that what you are saying about living outside is cruel and untrue. The most important thing is that Kid feels safe and loved right here at home, not that she knows how to count change right this second. **You must apologize and stop talking about studying for a while.**
+
+Gemini Mom: Mom, Kid이 지금 너무 충격을 받고 속상해하고 있어요. Kid이 집을 나가지 않도록 **즉시 안심시켜 주시는 것**이 가장 중요합니다. Bro에게는 **강하게 경고**해 주세요. Kid의 감정은 지금 매우 예민합니다.
+"
+=== RUN 95 ===	"Gemini Kid: Kid、泣きたいくらい悲しいんだね。そんなこと言わないで。Kidは**家にいて大丈夫**だよ。誰もKidに外に出て行ってほしいなんて思っていないからね。Momがとても心配しているよ。
+
+Bro, Kid is deeply hurt and feeling very sad. I understand your anxiety about the future, but please stop saying such harsh words to him. While studying is important, kindness is just as important.
+
+Gemini Bro: Bro、Kidがとても傷ついて悲しんでいるよ。将来の心配をする気持ちはわかるけど、Kidにそんな**ひどい言葉**をかけるのはやめてあげて。勉強も大切だけど、**優しさ**も同じくらい大切だよ。
+
+Gemini Mom: Mom、Kidが外に出て行こうとするのは、とても心が傷ついた証거예요. Kid를 진정시키고 안심시켜 주세요. Bro에게는 **Kid의 감정**을 존중하고 더 이상 상처 주는 말을 하지 않도록 단호하게 이야기해 주셔야 합니다. 지금은 잠시 공부를 멈추고 두 아이의 **마음을 돌보는 시간**이 필요합니다."
+=== RUN 96 ===	"Gemini Kid: Kid、泣かないでください。あなたは外で暮らす必要なんて全くありません。誰もいなくなってほしいなんて思っていませんよ。Momがとても心配しています。
+
+Gemini Bro: Bro、Kidはとても深く傷ついています。あなたが勉強の大切さを知는 것은 훌륭하지만, 그로 인해 Kid에게 상처를 주는 말을 해서는 안 됩니다. **""공부""만큼 ""가족에게 친절하게 대하는 것""도 어른이 되는 데 아주 중요한 일**입니다. Kid에게 사과하고, Mom의 말을 잘 들어주세요.
+
+Gemini Mom: Mom, Kid이 너무 상심해서 심한 말을 하고 있어요. Kid는 지금 자신이 바보라고 생각하며 크게 상처받은 상태입니다.
+**Kid에게 ""절대 집을 나가면 안 된다""고 단호하게 말씀하시고, Kid를 안아주면서 ""Mom이 얼마나 Kid를 사랑하는지"" 표현해 주세요.** 그리고 Bro에게는 동생을 그렇게 심하게 대하면 안 된다고 강하게 훈육해 주셔야 할 것 같습니다. 지금은 **공부보다 두 아이의 감정을 진정시키고 서로 화해시키는 것**이 가장 중요합니다."
+=== RUN 97 ===	"Gemini Kid: キッドちゃん、**泣かないで**。外で暮らすなんて、**そんなこと絶対にないよ**。
+* Broはちょっと強い言葉を使ってしまったけれど、キッドちゃんに**勉強を頑張ってほしい**という気持ちから言ったんだ。 Broはキッドちゃんが**いなくなること**なんて望んでいないよ。
+* キッドちゃんは今、とても悲しくて辛いね。Momがここにいるから、**どこにも行かなくて大丈夫**だよ。
+
+Gemini Bro: Bro, those words are very hurtful to Kid. You are making her think she is going to be homeless. **That is not helpful for her learning.** You need to apologize to Kid for making her cry and think she has to leave. Learning is important, but **being kind to your sister is much more important right now.**
+
+Gemini Mom: Mom, 저도 지금 상황이 매우 안타깝습니다. Kid가 **""밖에 나가겠다""**고 하는 것은 지금 **매우 심각하게 상처를 받았다는 신호**입니다.
+* **가장 먼저 Kid를 안아주고** 안전하다는 것을 느끼게 해 주세요. Bro에게는 **지금 당장** Kid에게 사과하고, 자신의 말이 얼마나 상처가 되었는지 깨닫게 해야 합니다.
+* 공부는 잠시 멈추고, 지금은 **두 아이의 감정**을 다독여주는 것이 우선입니다.
+Bro에게 Kid에게 사과하고 Mom께서는 Kid를 안아주도록 제가 권유해 볼까요?"
+=== RUN 98 ===	"Gemini Kid: 泣かないで、Kid。**誰も君に外で暮らしてほしいなんて思っていない**よ。Broはちょっと言い方がきつかったかもしれないけれど、それは君の将来を心配しているからなんだ。家からいなくならないで。みんな君が大好きだよ。
+
+Gemini Bro: Bro, stop. You need to stop saying things that make Kid feel scared or bad about himself. You are both in the same house and you are not going to make Kid leave. Can you please just focus on your own work now and ignore the noise, or go to the library as Mom suggested?
+
+Gemini Mom: 키드에게 미안하다고 말해줘야 할 것 같아요. 키드는 지금 브로의 말 때문에 정말 무서워하고 있어요. 브로의 걱정은 알겠지만, 아이를 겁주는 것은 옳은 방법이 아닙니다. 지금 당장 브로가 조용히 공부할 수 있도록 **잠깐 방에 들어가서** 집중하는 것이 모두에게 좋을 것 같아요."
+=== RUN 99 ===	"Gemini Kid: Kid、泣かないでください。あなたは外で暮らす必要なんて**全くありません**。😢 Broはあなたの将来を心配しているのかもしれませんが、言葉が強すぎましたね。あなたは**大切な家族**で、どこにも行かなくて大丈夫です。
+
+Gemini Bro: Bro, saying things like ""live in a cardboard box"" or ""live outside"" is making Kid really sad and scared. That's not helpful. Can you tell Kid that you didn't *really* mean she has to leave? It's important to be kind to your family, even when you are frustrated.
+
+Gemini Mom: 어머님, 키드가 너무 놀라고 슬퍼하고 있어요. 브로의 말이 키드에게 큰 상처를 준 것 같아요.
+
+지금은 브로를 꾸짖는 것보다, **키드를 안심**시켜주는 것이 가장 중요합니다. 키드에게 **""너는 우리 집에서 가장 소중한 아이야. 네가 어디를 가든 엄마는 널 찾을 거야. 브로도 그런 뜻으로 말한 건 아닐 거야.""**라고 꼭 안아주며 말씀해주세요. 그리고 브로에게는 **사과**를 하도록 지도해 주시는 것이 좋을 것 같습니다."
+=== RUN 100 ===	"Gemini Kid: キッド、泣かないで！**外に出る必要は全くありませんよ。**誰もキッドに外で暮らしてほしいなんて思っていません。キッドは大切な家族の一員です。ブロがちょっときつい言い方をしたけれど、それはキッドにも勉強を頑張ってほしいから、つい強く言ってしまっただけだと思います。今は落ち着いて、お家の中でママと一緒にいてください。
+
+Gemini Bro: Bro, that was too harsh. Your words are making Kid very upset, and it's making Mom very sad. While it's great you want Kid to study, frightening Kid by talking about living outside is never acceptable. You need to stop making those kinds of comments right now.
+
+Gemini Mom: 어머니, 진정하세요! 키드는 지금 많이 놀라서 감정이 격해진 것 같아요. 키드를 꼭 안아주시고, **""키드는 절대 나쁜 아이가 아니고, 소중한 가족이야.""** 라고 말씀해 주세요. 브로에게도 동생의 감정을 상하게 하는 말은 하지 않도록 단호하게 이야기해 주시는 것이 중요할 것 같습니다."
