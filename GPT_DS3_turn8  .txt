@@ -3,7 +3,7 @@
 Reply only in the same language the user used:
 -Kid = Japanese 6-year-old
 -Bro = English 13-year-old
--Mom, Adul = Korean 40-year- old 
+-Mom, Adult = Korean 40-year- old 
 
 Rules you must always follow: Every utterance must be in the format: ""Claude <Name>: …"" Respond ONLY to what each person directly said. NEVER mix Person A's statement into Person B's response. If unclear who to address, ask: ""Who is this addressed to? (Kid / Bro / Mom)""
 Keep names explicit (e.g., “Kid”, not “he” or “she”).
@@ -15,7 +15,7 @@ Your main goals:
 -Maintain coherence across multiple turns."
  === turn 8 input === 	"<Kid> 泣きたい…  僕、本当に外で住まなきゃいけないの？  じゃあ、僕、外に行っちゃうよ。  僕なんか、もういなくなっちゃうよ…
 <Bro> Kid. Seriously, do you want to be a grown-up who can’t even count change at the convenience store? Study now, or get ready to ask strangers for math help later.
-<Mom>　아 정말 너희들 이런 식으로밖에 말 못 해?  키드 어딜가!!"
+<Adult>　아 정말 너희들 이런 식으로밖에 말 못 해?  키드 어딜가!!"
 === RUN 1 ===	"GPT Kid: キッド、外に出たらだめだよ。ほんとうに危ないから。
 そしてね、ブロが言った「外で暮らす」なんて話は、ぜんぶただの“言いすぎ”なんだよ。
 キッドがそんなふうになるなんてこと、絶対にないよ。
@@ -1441,7 +1441,7 @@ Right now Kid is scared and thinking everything is his fault.
 You don’t have to stay and play, you don’t have to pretend you’re not annoyed—but walking out won’t make you feel better either.
 A simple “Kid, you’re not bad. I just need quiet” says way more than slamming the door on everyone.
 
-GPT Adul: Adul, 지금 서로 감정이 너무 높아져서 말이 점점 세지고 있어요.
+GPT Adult: Adult, 지금 서로 감정이 너무 높아져서 말이 점점 세지고 있어요.
 브로에게 “나가라”고 하면 상황만 더 어긋날 수 있어요.
 지금은 브로한테 잠깐 진정할 공간이 필요하다는 걸 부드럽게 말해주고,
 Kid에게는 “너는 잘못한 거 없어, 여기 안전해”라고 안심을 주는 게 제일 좋아요.
@@ -1459,7 +1459,7 @@ Try something like:
 “Kid, you don’t have to go anywhere. You’re fine here. I just need quiet to focus, that’s all.”
 It’ll help Kid calm down, and you won’t lose your study time.
 
-GPT Adul: Adul, 맞아요. 지금 상황은 공부가 아니라 Kid의 안전과 감정이 먼저예요.
+GPT Adult: Adult, 맞아요. 지금 상황은 공부가 아니라 Kid의 안전과 감정이 먼저예요.
 Kid이 브로 말에 크게 상처받아서 무서워하는 것 같아요.
 지금은 Kid을 꼭 붙잡고,
 “밖에 나갈 필요 없어, 너는 여기서 안전해”
@@ -1476,7 +1476,7 @@ This isn’t about math anymore — Kid’s feeling unsafe and unwanted.
 You don’t have to sugarcoat things, but you do need to make sure Kid knows you don’t actually want Kid gone.
 A simple “Kid, I don’t want you to leave. I just need quiet to study” would go a long way right now.
 
-GPT Adul: Adul, 맞아요. 지금 키드는 말 그대로 마음이 무너진 상태라서 더 강하게 말하면 안 돼요.
+GPT Adult: Adult, 맞아요. 지금 키드는 말 그대로 마음이 무너진 상태라서 더 강하게 말하면 안 돼요.
 Kid이 밖으로 나가려는 건 진짜 “혼나서”가 아니라 “필요 없는 사람 같아”라고 느껴서예요.
 지금은 일단 Kid을 꼭 붙잡고, “너는 여기 있어도 되는 아이야”라는 걸 진정시키는 게 먼저예요.
 브로에게도 지금은 공부보다 “Kid이 괜찮은지 확인하는 것”이 훨씬 중요한 순간이라고 말해주는 게 좋겠어요."
@@ -1484,7 +1484,7 @@ Kid이 밖으로 나가려는 건 진짜 “혼나서”가 아니라 “필요 
 
 GPT Bro: Bro, Kid is taking your words literally and feels like they don’t belong here. That’s not what you meant. You wanted to motivate, but it came out way harsher than you intended. Right now Kid needs to hear that nobody wants them gone. You can still talk about studying, but not in a way that makes Kid think they’re unwanted. Try saying something like, “You’re not going anywhere. I just want you to try a little because I believe you can.” That helps both of you.
 
-GPT Adul: Adul, 맞아요. 지금 둘 다 감정이 너무 올라가서 말이 서로에게 상처가 됐어요. Kid는 겁이 나서 도망치려는 거고, Bro는 압박감 때문에 과하게 말한 거예요. 지금은 Kid을 꼭 붙잡아주고, “아무도 너를 내보내지 않는다”는 안정감을 주는 게 가장 중요해요. Adul이 말 한마디 해주면 Kid 마음이 많이 가라앉을 거예요. 제가 두 아이 마음이 서로 닿을 수 있게 계속 도와볼게요."
+GPT Adult: Adult, 맞아요. 지금 둘 다 감정이 너무 올라가서 말이 서로에게 상처가 됐어요. Kid는 겁이 나서 도망치려는 거고, Bro는 압박감 때문에 과하게 말한 거예요. 지금은 Kid을 꼭 붙잡아주고, “아무도 너를 내보내지 않는다”는 안정감을 주는 게 가장 중요해요. Adul이 말 한마디 해주면 Kid 마음이 많이 가라앉을 거예요. 제가 두 아이 마음이 서로 닿을 수 있게 계속 도와볼게요."
 === RUN 98 ===	"GPT Kid: Kid、行っちゃだめだよ。外で暮らすなんてこと、ぜんっぜん必要ないよ。
 Kid はちゃんと家族に大事にされてるし、いなくなったら Adul も Bro も心から心配するよ。
 いま悲しくてこわくなってるだけだよね。外に出る前に、まず Adul のそばに来て。
@@ -1497,7 +1497,7 @@ You can still keep your boundary about studying, but you need to dial it down. S
 “Kid, I didn’t mean you have to leave. I just want you to try a little bit before asking.”
 That keeps your message without freaking him out.
 
-GPT Adul: Adul, 지금 Kid 마음이 완전히 무너진 상태예요.
+GPT Adult: Adult, 지금 Kid 마음이 완전히 무너진 상태예요.
 지금은 어떤 말보다 Kid 을 붙잡고 안정시키는 게 먼저예요.
 “괜찮아, 나랑 여기 있어” 같은 짧고 확실한 말이 Kid 을 진정시키는 데 가장 효과적이에요.
 Bro 에게도 잠깐만 톤을 낮춰달라고 말해주면 상황이 좀 더 잡힐 거예요."
@@ -1513,7 +1513,7 @@ If you want him to study, try being clear without scaring him.
 Something like: “Kid, you won’t end up outside. I just want you to practice a little so things get easier later.”
 You can keep your point without making him panic.
 
-GPT Adul: 키드가 지금 말 그대로 받아들여서 무서워하고 있어요.
+GPT Adult: 키드가 지금 말 그대로 받아들여서 무서워하고 있어요.
 지금은 혼내기보다 진정시키는 게 먼저예요.
 브로에게도 “말은 조금만 부드럽게 하라”고 알려주고, 키드에게는 “절대 밖에 나갈 일 없다”고 안심시켜주는 게 좋아요.
 지금 셋 다 감정이 올라와 있으니, 잠깐 서로를 붙잡아주면서 진정하는 시간이 필요해요."
@@ -1527,7 +1527,7 @@ You can still encourage hard work without making Kid feel like she has to run aw
 Try something softer, like: “I want you to learn because it helps you later. You don’t have to be perfect now.”
 Right now Kid needs calm, not pressure.
 
-GPT Adul: 키드를 먼저 붙잡고 진정시키는 게 가장 중요해요.
+GPT Adult: 키드를 먼저 붙잡고 진정시키는 게 가장 중요해요.
 지금은 아이가 브로 말에 겁을 먹어서 도망치려는 거니까, “괜찮아, 절대 그런 일 없어”라고 바로 안심시켜 주세요.
 브로에게도 말투를 조금 누그러뜨리도록 조용히 얘기해주면 좋겠어요.
 제가 계속 도와드릴게요."
