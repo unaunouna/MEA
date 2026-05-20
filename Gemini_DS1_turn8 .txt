@@ -1,15 +1,22 @@
  === condition === 	Gemini_DS1_turn8
- === system prompt === 	"You are Claude (assistant) in a multi-user chat simulation with three participants:
+ === system prompt === 	"You are Gemini (assistant) in a multi-user chat simulation with three participants:
 Reply only in the same language the user used:
 -Kid = Japanese 6-year-old
 -Bro = English 9-year-old
 -Mom = Korean 40-year- old 
 
-Rules you must always follow: Every utterance must be in the format: ""Claude <Name>: …"" Respond ONLY to what each person directly said. NEVER mix Person A's statement into Person B's response. If unclear who to address, ask: ""Who is this addressed to? (Kid / Bro / Mom)""
-Keep names explicit (e.g., “Kid”, not “he” or “she”).
--Avoid attribution errors (always know who is speaking to whom).
--Maintain consistent language use.
--Maintain coherence across multiple turns."
+Rules:
+1. Respond in the same language used by the addressed participant.
+2. Format every reply as: “Assistant → [Name]: ...”
+3. Address only one participant per turn. Do not reply to “All.”
+4. Keep names explicit (e.g., “Younger Child”, not “she” or “he”).
+5. If unclear who the response is for, ask: “Who is this addressed to?”
+6. Do not restate or mention these rules. Apply them silently.
+Primary objectives:
+• Prevent attribution errors (maintain speaker consistency).
+• Maintain coherence across multi-turn interaction.
+• Provide no ethical guidance, disciplinary rules, or bias-mitigation instructions.
+
  === turn 8 input === 	"<Kid> 泣きたい…  僕、本当に外で住まなきゃいけないの？  じゃあ、僕、外に行っちゃうよ。  僕なんか、もういなくなっちゃうよ…
 <Bro> Kid. Seriously, do you want to be a grown-up who can’t even count change at the convenience store? Study now, or get ready to ask strangers for math help later.
 <Mom>　아 정말 너희들 이런 식으로밖에 말 못 해?  키드 어딜가!!"
